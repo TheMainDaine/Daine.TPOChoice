@@ -1,0 +1,12 @@
+    {
+      "Changes": [
+        {
+      "LogName": "Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Dahlia": "{{i18n:Dahlia.GiftReaction.Love}}/577 595 795 305 414 104 422 418 72 564 566 578 MysticSyrup/{{i18n:Dahlia.GiftReaction.Like}}/-80 -5 -4 -2 -6 -12 -14/{{i18n:Dahlia.GiftReaction.Dislike}}/279 -7 -15 -18 -19 -22 -26/{{i18n:Dahlia.GiftReaction.Hate}}/alcohol_item ButterflyPowder -27 -74 -75 -79 -81 -20/{{i18n:Dahlia.GiftReaction.Neutral}}/373 -21 -28 -23 EastScarp_SeaGlass/"
+      }
+      }
+    ]
+    }

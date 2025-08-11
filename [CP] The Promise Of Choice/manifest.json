@@ -1,0 +1,30 @@
+{
+  "Name": "The Promise Of Choice - Custom NPC Mod",
+  "Author": "Daine",
+  "Version": "0.0.1",
+  "Description": "A Story About Choices.",
+  "UniqueID": "Daine.TPOChoice",
+  "MinimumApiVersion": "3.15.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [ "Nexus:XXXXX" ],
+  "Dependencies": [
+    {
+      "UniqueID": "poohnhi.PoohCore",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "LemurKat.EastScarp",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Spiderbuttons.BETAS",
+      "IsRequired": true
+    }
+  ]
+}

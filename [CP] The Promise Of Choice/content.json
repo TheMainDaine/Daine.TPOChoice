@@ -1,0 +1,89 @@
+{
+  "Format": "2.6.0",
+  "Changes": [
+    {
+      "LogName": "Blank Load",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Daine.TPOChoice_Aliyah, Characters/schedules/Daine.TPOChoice_Aliyah, Characters/Dialogue/Daine.TPOChoice_Dahlia, Characters/schedules/Daine.TPOChoice_Dahlia",
+      "FromFile": "Assets/blank.json"
+    },
+{
+    "LogName": "Data Folder",
+    "Action": "Include",
+    "FromFile": "Data/assetloads.json, Data/TemporaryActors.json, Data/MEEPimals.json, Data/Locations.json, Data/Aliyah/disposition.json, Data/Dahlia/disposition.json, Data/Aliyah/dialogue.json, Data/Dahlia/dialogue.json, Data/Aliyah/schedule.json, Data/Dahlia/schedule.json, Data/Aliyah/gifttastes.json, Data/Dahlia/gifttastes.json, Data/Objects.json, Data/Aliyah/events.json, Data/Dahlia/events.json, Data/animations.json"
+},
+  //Dialogue Flag Remover
+{
+  "LogName": "Bulk Daily Flag Remover", 
+  "Action": "EditData",
+  "Target": "Data/TriggerActions",
+  "Entries": {
+    "Daine.TPOChoice_TriggerActions.DailyFlagRemovals": {
+      "Id": "Daine.TPOChoice_TriggerActions.DailyFlagRemovals",
+      "MarkActionApplied": false,
+      "Trigger": "DayStarted",
+       "Actions": [ 
+         "RemoveMail Current Daine.Aliyah_OverrideSeenToday",
+         "RemoveMail Current Daine.Dahlia_OverrideSeenToday",
+         "RemoveMail Current Daine.SeenEvent.Dahlia",
+         "RemoveMail Current Daine.SeenEvent.Aliyah" ]
+        }
+      }
+    },
+    {
+      "Logname": "Inject New Emotes",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TileSheets/emotes",
+      "FromFile": "Assets/Tilesheets/ExtendedEmotes.png",
+      "ToArea": { "X": 0, "Y": 848, "Width": 64, "Height": 320 }
+    }
+],
+  // Config Options
+
+  "ConfigSchema": {
+ "Farmer_Honorific": {
+   "Default": "Ser",
+   "AllowBlank": false,
+   "AllowValues": "Ser, Mx., Miss, Mrs., Mr., Dr.",
+   "Description": "Set the honourific used by your Farmer.",
+   "Section": "General"
+ },
+ "Farmer_Surname": {
+   "Default": "Farmer",
+   "AllowBlank": false,
+   "AllowMultiple": false,
+   "Description": "Your Farmer's Surname, (Default 'Farmer').",
+   "Section": "General"
+ }
+  },
+
+  // Dynamic Tokens
+
+"DynamicTokens": [
+    {"Name": "GeneralDialogueTokens",
+      "Value": "|Honorific={{Farmer_Honorific}} |Surname={{Random: {{Farmer_Surname}} |key=Farmer_Surname}}"},
+
+    { "Name": "DahlPetName", "Value": "Farmer"},    
+    { "Name": "DahlPetName", "Value": "Bestie",
+    "When": {"HasFlag |contains=Dahl.Visiting.Penpal": true}},
+    { "Name": "DahlPetName", "Value": "Old Friend",
+    "When": {"HasFlag |contains=Dahl.Childhood.Friend": true}},
+    { "Name": "DahlPetName", "Value": "Hero",
+    "When": {"HasSeenEvent |contains=Daine.Dahlia.10H": true}},
+
+    { "Name": "WeekDayList",
+      "Value": "Sun, Mon, Tue, Wed, Thu, Fri, Sat"},
+    { "Name": "WeekDay",
+      "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"},
+
+    //Mod ID Tokens
+        {"Name": "Aliyah", "Value": "Daine.TPOChoice_Aliyah"},
+        {"Name": "Dahlia", "Value": "Daine.TPOChoice_Dahlia"},
+        {"Name": "Miguel", "Value": "Daine.TPOChoice_Miguel"},
+        {"Name": "Raquel", "Value": "Daine.TPOChoice_Raquel"},
+        {"Name": "Iris", "Value": "Daine.TPOChoice_Iris"},
+        {"Name": "Spreach", "Value": "Daine.TPOChoice_Spreach"},
+        {"Name": "Coffee", "Value": "Daine.TPOChoice_GotoranCoffee"},
+        {"Name": "Tea", "Value": "Daine.TPOChoice_DandelionTea"}]
+}

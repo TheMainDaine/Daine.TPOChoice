@@ -1,0 +1,66 @@
+{
+    "Changes": [
+         {
+      "LogName": "Ali Disposition",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{Aliyah}}": {
+          "DisplayName": "Aliyah",
+          "BirthSeason": "spring",
+          "BirthDay": 6,
+          "CanSocialize": true,
+          "CanReceiveGifts": true,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Positive",
+          "IsDarkSkinned": true,
+          "CanBeRomanced": false,
+          "FlowerDanceCanDance": true,
+          "LoveInterest": null,
+          "SpouseAdopts": true,
+          "SpouseGiftJealousy": false,
+          "PerfectionScore": false,
+          "EndSlideShow": "TrailingGroup",
+          "CanVisitIsland": true,
+          "KissSpriteIndex": "39",
+          "KissSpriteFacingRight": false,
+          "Calendar": "HiddenUntilMet",
+          "SocialTab": "UnknownUntilMet",
+          "Appearance": [
+  {
+    "Id": "Aliyah",
+    "Condition": "SEASON Fall",
+    "Portrait": "Portraits/{{ModId}}_autumn1_Aliyah",
+    "Sprite": "Characters/{{ModId}}_autumn1_Aliyah",
+    "IsIslandAttire": false,
+    "Precedence": 0,
+    "Weight": 1
+  }
+          ],
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "{{Aliyah}}_House",
+              "Tile": {
+                "X": 4,
+                "Y": 13
+              },
+              "Direction": "Left"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 48
+          },
+          "CustomFields": {
+            "poohnhi.PoohCore/HighCharacter": "true"
+          }
+        }
+      }
+    }
+    ]
+}

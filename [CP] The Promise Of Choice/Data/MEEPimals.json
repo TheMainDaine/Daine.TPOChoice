@@ -1,0 +1,42 @@
+{
+    "Changes": [
+        {
+            "LogName": "Spreach's Farm Data",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "{{Spreach}}": {
+                    "DisplayName": "Spreach",
+                    "House": "Barn",
+                    "Texture": "Characters/{{Spreach}}",
+                    "SpriteWidth": 32,
+                    "SpriteHeight": 32,
+                    "SleepFrame": 28,
+                    "UseFlippedRightForLeft": false,
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "ShadowWhenBaby": { "Visible": false },
+                    "ShadowWhenAdult": { "Visible": false }
+                }
+            }
+        },
+        {
+            "LogName": "Spreach's MEEP Data",
+            "Action": "EditData",
+            "Target": "MEEP/FarmAnimals/SpawnData",
+            "Entries": {
+                "{{Spreach}}_Spawn": {
+                    "AnimalId": "{{Spreach}}",
+                    "Age": 2,
+                    "LocationId": "{{Aliyah}}_Yard",
+                    "DisplayName": "Spreach",
+                    "PortraitTexture": "Portraits/{{Spreach}}",
+                    "PetMessage": [ 
+                        "{{i18n:Spreach.Talk.{{Random:{{Range: 1, 6}}}}}}"
+                         ],
+                        "HomeTileX": 22,
+                        "HomeTileY": 10
+                }
+            }
+        }
+    ]
+}

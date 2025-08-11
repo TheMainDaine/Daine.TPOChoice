@@ -1,0 +1,34 @@
+{
+    "Changes": [
+        {
+             "LogName": "Aliyah Default Outfit",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Aliyah, Characters/{{ModId}}_Aliyah",
+      "FromFile": "Assets/{{TargetPathOnly}}/Aliyah/autumn_Aliyah1.png"
+        },
+        {
+          "LogName": "Aliyah Fall",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_autumn_Aliyah, Characters/{{ModId}}_autumn_Aliyah",
+      "FromFile": "Assets/{{TargetPathOnly}}/Aliyah/autumn_Aliyah1.png"
+    },
+    {
+      "LogName": "Dahlia Default",
+      "Action": "Load",
+      "Target": "Portraits/{{ModID}}_Dahlia, Characters/{{ModID}}_Dahlia",
+      "FromFile": "Assets/{{TargetPathOnly}}/Dahlia/spring_Dahlia1.png"
+    },
+    {
+      "LogName": "Dahlia Spring",
+      "Action": "Load",
+      "Target": "Portraits/{{ModID}}_spring_Dahlia, Characters/{{ModID}}_spring_Dahlia",
+      "FromFile": "Assets/{{TargetPathOnly}}/Dahlia/spring_Dahlia1.png"
+    },
+    {
+      "LogName": "Load Map Tilesheets",
+      "Action": "Load",
+      "Target": "Maps/aliinterior2, Maps/AliOutdoor, Maps/Dahl_Tiles, Maps/fall_AliHouse, Maps/spring_AliHouse, Maps/summer_AliHouse, Maps/winter_AliHouse, Maps/z_Craftables, Maps/z_furniture, Maps/z_furniture_3, Maps/z_wizard_furniture",
+      "FromFile": "Assets/TileSheets/{{TargetWithoutPath}}.png"
+    }
+    ]
+}

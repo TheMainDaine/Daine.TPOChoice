@@ -1,0 +1,55 @@
+{
+    "Changes": [
+         {
+      "LogName": "Dahlia Disposition",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Daine.TPOChoice_Dahlia": {
+          "DisplayName": "Dahlia",
+          "BirthSeason": "winter",
+          "BirthDay": 1,
+          "CanSocialize": true,
+          "CanReceiveGifts": true,
+          "HomeRegion": "Other",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "IsDarkSkinned": false,
+          "CanBeRomanced": false,
+          "FlowerDanceCanDance": false,
+          "LoveInterest": "DN.SNS_Hector",
+          "PerfectionScore": false,
+          "EndSlideShow": "TrailingGroup",
+          "CanVisitIsland": false,
+          "Calendar": "HiddenUntilMet",
+          "SocialTab": "HiddenUntilMet",
+          "Appearance": [
+  {
+    "Id": "Dahlia Default",
+    "Condition": "SEASON spring",
+    "Portrait": "Portraits/{{Dahlia}}",
+    "Sprite": "Characters/{{Dahlia}}",
+    "IsIslandAttire": false,
+    "Precedence": 0,
+    "Weight": 1
+  }
+          ],
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "EastScarp_LoresCove",
+              "Tile": {
+                "X": 46,
+                "Y": 75
+              },
+              "Direction": "Left"
+            }
+          ]
+        }
+      }
+    }
+    ]
+}

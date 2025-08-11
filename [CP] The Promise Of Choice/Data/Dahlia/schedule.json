@@ -1,0 +1,20 @@
+{
+  "Changes": [
+    {
+      "LogName": "Dahlia - Locked",
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{Dahlia}}",
+      "Entries": {
+        "spring": "0 Daine.TPOChoice_WaitingRoom 11 6 3/1200 Daine.TPOChoice_Waitingroom 11 6 2"},
+        "When": { "HasSeenEvent |contains=Daine.Dahlia.0H": false }
+      },
+      {
+        "LogName": "Dahlia Unlocked - Sample",
+        "Action": "EditData",
+        "Target": "Characters/schedules/{{Dahlia}}",
+        "Entries": {
+          "spring": "0 EastScarp_LoresCove 46 75 3/610 Town 33 75 0/1200 EastScarp_Village 67 75 2/1700 Mountain 54 14 2/2100 EastScarp_DeepMountains 23 26 2/0100 EastScarp_LoresCove 47 75 1" },
+          "When": { "HasSeenEvent |contains=Daine.Dahlia.0H": true }
+        }
+      ]
+    }

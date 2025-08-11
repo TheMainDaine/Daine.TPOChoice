@@ -1,0 +1,91 @@
+{
+    "Changes": [
+            {
+      "LogName": "Hard Coded Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{Dahlia}}",
+      "Entries": {
+        //Basic
+        "Name": "{{i18n:Dahlia.Name}}",
+        "Introduction": "{{i18n:Dahlia.Introduction}}",
+        //Joja and Community Center
+        "joja_Begin": "{{i18n:Dahlia.JojaBegin}}",
+        "cc_Begin": "{{i18n:Dahlia.CCBegin}}",
+        "cc_Bus": "{{i18n:Dahlia.CCBus}}",
+        "cc_Minecart": "{{i18n:Dahlia.CCMinecart}}",
+        "cc_Complete": "{{i18n:Dahlia.CCComplet}}",
+        "movieTheater": "{{i18n:Dahlia.MovieTheater}}",
+        //Gift Tastes
+        "AcceptGift_(O)StardropTea": "{{i18n:Dahlia.GiftReaction.StardropTea}}",
+        "AcceptGift_Love": "{{i18n:Dahlia.GiftReaction.Love}}",
+        "AcceptGift_Like": "{{i18n:Dahlia.GiftReaction.Like}}",
+        "AcceptGift_Neutral": "{{i18n:Dahlia.GiftReaction.Neutral}}",
+        "AcceptGift_Dislike": "{{i18n:Dahlia.GiftReaction.Dislike}}",
+        "AcceptGift_Hate": "{{i18n:Dahlia.GiftReaction.Hate}}",
+        //Specific Gifts
+
+        //Gift Rejections
+        "RejectItem_alcohol_item": "{{i18n:Dahlia.GiftReaction.AlcoholCategory}}",
+        "RejectItem_(O)458":"{{i18n:Dahlia.GiftRejection.Bouquet}}",
+        "RejectItem_(O)ApryllForever.CPPolyamorySweet_AineFlower": "{{i18n:Dahlia.GiftRejection.Polysweet}}",
+        "RejectItem_(O)ApryllForever.CPPolyamorySweet_AtagartisPendant": "{{i18n:Dahlia.GiftRejection.Polysweet}}",
+        "RejectItem_(O)ApryllForever.CPPolyamorySweet_MermaidBouquet": "{{i18n:Dahlia.GiftRejection.Polysweet}}",
+        "RejectItem_(O)ApryllForever.CPPolyamorySweet_RoomieBGone": "{{i18n:Dahlia.GiftRejection.Polysweet}}",
+
+        //Pre-Festival Dialogue
+        "spring_12": "{{i18n:Dahlia.EggFestival}}",
+        "spring_23": "{{i18n:Dahlia.FlowerDance}}",
+        "summer_10": "{{i18n:Dahlia.Luau}}",
+        "summer_27": "{{i18n:Dahlia.MoonlightJelly}}",
+        "fall_15": "{{i18n:Dahlia.SDVFair}}",
+        "fall_26": "{{i18n:Dahlia.SpiritsEve}}",
+        "winter_7": "{{i18n:Dahlia.IceFestival}}",
+        "winter_15": "{{i18n:Dahlia.NightMarket}}",
+        "winter_24": "{{i18n:Dahlia.WinterStar}}",
+        //End Of Season Dialogue
+        "spring_28": "{{i18n:Dahlia.SpringEnd}}",
+        "summer_28": "{{i18n:Dahlia.SummerEnd}}",
+        "fall_28": "{{i18n:Dahlia.FallEnd}}",
+        "winter_28": "{{i18n:Dahlia.WinterEnd}}",
+        // Green Rain
+        "GreenRain": "{{i18n:Dahlia.GreenRain}}",
+        "GreenRainFinished": "{{i18n:Dahlia.GreenRainFinished}}",
+        "GreenRain_2": "{{i18n:Dahlia.GreenRain2}}",
+        // Other Specific Dates
+        "winter_21": "{{i18n:Dahlia.Winter21.{{HasMod|Contains=DN.SNS}}}}"
+      }
+    },
+    //Dialogue Pools
+    {
+      "LogName": "Dahlia Dialogue Pre-Reveal",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{Dahlia}}",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:Dahlia.LowHeart.{{Random:{{Range: 1, 17}}}}|DahlPetName={{DahlPetName}}}}"
+      }
+    },
+    {
+      "LogName": "Dahlia Dialogue Post-Reveal",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{Dahlia}}",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:Dahlia.HighHeart.{{Random:{{Range: 1, 13}}}}|DahlPetName={{DahlPetName}}}}"
+      },
+      "When": {
+        "HasSeenEvent": "Daine.Dahlia.6H"
+      }
+    },
+    {
+      "LogName": "Dahlia Seasonal Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{Dahlia}}",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:Dahlia.{{Season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}|DahlPetName={{DahlPetName}}}}#$action AddMail Current Daine.Dahlia_OverrideSeenToday received"
+      },
+      "When": {
+        "Random: {{range: 1, 10}} |key=CSO": 1,
+        "HasFlag |contains=Daine.Dahlia_OverrideSeenToday": false
+      }
+    }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "Changes": [
+       {
+            "LogName": "Ali Map Patch",
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_DeepMountains",
+            "FromFile": "Assets/Maps/Ali_Mountains_Patch.tmx",
+            "ToArea": {
+            "X": 52,
+            "Y": 0,
+            "Width": 7,
+            "Height": 5
+            }
+         },
+                {
+            "LogName": "Dahl Map Patch",
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_LoresCove",
+            "FromFile": "Assets/Maps/TPOC_DahlPatch1.tmx",
+            "ToArea": {
+            "X": 38,
+            "Y": 66,
+            "Width": 19,
+            "Height": 13
+            }
+         },
+        {
+            "LogName": "Aliyah Yard",
+            "Action": "Load",
+            "Target": "Maps/{{Aliyah}}_Yard",
+            "FromFile": "Assets/Maps/TPOC_AliHouseExterior.tmx"
+        },
+        {
+            "LogName": "Aliyah House",
+            "Action": "Load",
+            "Target": "Maps/{{Aliyah}}_House",
+            "FromFile": "Assets/Maps/TPOC_AliHouseInterior.tmx"
+        },
+        {
+            "LogName": "TPOC Waiting Room",
+            "Action": "Load",
+            "Target": "Maps/{{ModID}}_WaitingRoom",
+            "FromFile": "Assets/Maps/TPOC_WaitingRoom.tmx"
+        },
+        {
+            "LogName": "Location Data",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{Aliyah}}_Yard": {
+                    "DisplayName": "{{i18n:Strings.Aliyah.Locations.1}}",
+                    "DefaultArrivalTile": { "X": 12, "Y": 22 },
+                    "CreateOnLoad": { "MapPath": "Maps/{{Aliyah}}_Yard" }
+                
+                },
+                "{{Aliyah}}_House": {
+                    "DisplayName": "{{i18n:Strings.Aliyah.Locations.2}}",
+                    "DefaultArrivalTile": { "X": 5, "Y": 30 },
+                    "CreateOnLoad": { "MapPath": "Maps/{{Aliyah}}_House" }   
+                    
+                },
+                "{{ModID}}_WaitingRoom": {
+                    "DisplayName": "The Backroom",
+                    "DefaultArrivalTile": { "X": 7, "Y": 6 },
+                    "CreateOnLoad": { "MapPath": "Maps/{{ModID}}_WaitingRoom"}
+
+                    // Dahlia's Grove will also be added, but it isn't accessible until after her 6H event so I haven't bothered with finishing the interior yet.
+                }
+            }
+        },
+        {
+            "LogName": "Deep Mountains to Ali's Yard",
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_DeepMountains",
+            "AddWarps": [
+                "55 0 {{Aliyah}}_Yard 13 34",
+                "56 0 {{Aliyah}}_Yard 13 34",
+                "57 0 {{Aliyah}}_Yard 13 34"
+            ]
+        },
+        {
+            "LogName": "Ali's Yard to Deep Mountains",
+            "Action": "EditMap",
+            "Target": "Maps/{{Aliyah}}_Yard",
+            "AddWarps": [
+                "12 35 EastScarp_DeepMountains 55 1",
+                "13 35 EastScarp_DeepMountains 55 1",
+                "14 35 EastScarp_DeepMountains 55 1"
+            ]
+        },
+        {
+            "LogName": "Leaving Ali's House",
+            "Action": "EditMap",
+            "Target": "Maps/{{Aliyah}}_House",
+            "AddWarps": [
+                "5 31 {{Aliyah}}_Yard 11 19",
+                "6 31 {{Aliyah}}_Yard 11 19"
+            ]
+        },
+        {
+            "LogName": "Map Strings",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                // Map Strings
+                "AliMountainSign": "{{i18n:Strings.Aliyah.Signs.1}}",
+                "AliYardSign": "{{i18n:Strings.Aliyah.Signs.2}}",
+                "AliRadio": "{{i18n:Strings.Aliyah.Radio.{{Random:{{Range: 1,8}}}}}}",
+                "AliAttic": "{{i18n:Strings.Aliyah.AtticDoor}}",
+                "SandWarmer": "{{i18n:Strings.Aliyah.SandWarmer}}",
+                "WeddingPhoto": "{{i18n:Strings.Aliyah.WeddingPhoto}}",
+                "PietreGrave": "{{i18n:Strings.Aliyah.Graveside}}",
+                "SpareRoom": "{{i18n:Strings.Aliyah.SpareRoom}}",
+                "NotFriends": "It looks like a door, but it's just an elaborate carving in the tree's trunk...."
+            }
+
+        }
+     ]
+}

@@ -1,0 +1,9 @@
+{
+    "Changes": [
+                {
+            "Action": "Load",
+            "Target": "Characters/{{Spreach}}, Portraits/{{Spreach}}",
+            "FromFile": "assets/TemporaryActors/{{TargetPathOnly}}/Spreach.png"
+        }
+    ]
+}

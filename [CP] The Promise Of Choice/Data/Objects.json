@@ -1,0 +1,240 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+          "{{ModID}}_DandelionTea": {
+            "Name": "Dandelion Tea",
+            "DisplayName": "Dandelion Tea",
+            "Description": "A deep and smoky tea made from dandelion roots.",
+            "Type": "Basic",
+            "Category": -26,
+            "Price": 600,
+            "Edibility": 10,
+            "IsDrink": true,
+            "Buffs": [
+              {
+                "Duration": 360,
+                "CustomAttributes": {
+                  "FarmingLevel": 0,
+                  "FishingLevel": 0,
+                  "MiningLevel": 0,
+                  "LuckLevel": 0,
+                  "ForagingLevel": 2,
+                  "MaxStamina": 45,
+                  "MagneticRadius": 0,
+                  "Speed": 0,
+                  "Defense": 0,
+                  "Attack": 0
+                },
+                "CustomFields": null
+              }
+            ],
+            "Texture": "{{InternalAssetKey: Assets/Objects/Objects.png}}",
+            "SpriteIndex": 0,
+            "GeodeDropsDefaultItems": false,
+            "GeodeDrops": null,
+            "ArtifactSpotChances": null,
+            "ExcludeFromFishingCollection": false,
+            "ExcludeFromShippingCollection": false,
+            "ExcludeFromRandomSale": false,
+            "ContextTags": [
+              "color_copper"
+            ]
+          }
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+          "{{ModID}}_DandelionRoots": {
+            "Name": "Dandelion Roots",
+            "DisplayName": "Dandelion Roots",
+            "Description": "Dried dandelion roots, ready to be eaten, or made into tea.",
+            "Type": "Basic",
+            "Category": -26,
+            "Price": 250,
+            "Edibility": 10,
+            "IsDrink": false,
+            "Buffs": [
+              {
+                "Duration": 360,
+                "CustomAttributes": {
+                  "FarmingLevel": 0,
+                  "FishingLevel": 0,
+                  "MiningLevel": 0,
+                  "LuckLevel": 0,
+                  "ForagingLevel": 1,
+                  "MaxStamina": 0,
+                  "MagneticRadius": 0,
+                  "Speed": 0,
+                  "Defense": 0,
+                  "Attack": 0
+                },
+                "CustomFields": null
+              }
+            ],
+            "Texture": "{{InternalAssetKey: Assets/Objects/Objects.png}}",
+            "SpriteIndex": 1,
+            "GeodeDropsDefaultItems": false,
+            "GeodeDrops": null,
+            "ArtifactSpotChances": null,
+            "ExcludeFromFishingCollection": false,
+            "ExcludeFromShippingCollection": false,
+            "ExcludeFromRandomSale": false,
+            "ContextTags": [
+              "color_yellow"
+            ]
+          }
+        }
+      },
+{
+          "LogName": "Dandelion Kegs",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": [
+            "(BC)12",
+            "OutputRules"
+          ],
+          "Entries": {
+            "{{ModID}}_DandelionTea": {
+              "Id": "{{ModID}}_DandelionTea",
+              "Triggers": [
+                {
+                  "RequiredItemId": "(O){{ModID}}_DandelionRoots",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "(O){{ModID}}_DandelionTea"
+                }
+              ],
+              "MinutesUntilReady": 180
+            }
+        
+          }
+        },
+        {
+            "LogName": "Dandelion Dehydrator",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+              "(BC)Dehydrator",
+              "OutputRules"
+            ],
+            "Entries": {
+              "{{ModID}}_DandelionTea": {
+                "Id": "{{ModID}}_DandelionTea",
+                "Triggers": [
+                  {
+                    "RequiredItemId": "(O)22",
+                    "RequiredCount": 5
+                  }
+                ],
+                "OutputItem": [
+                  {
+                    "ItemId": "(O){{ModID}}_DandelionRoots"
+                  }
+                ],
+                "MinutesUntilReady": 1750
+              }
+          
+            }
+          },
+          {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+              "{{ModID}}_Cardamom": {
+                "Name": "{{ModID}}_Cardamom",
+                "DisplayName": "Cardamom",
+                "Description": "A small jar of fragrantly warm, spicy, and slightly sweet-smelling powder, rich and inviting.",
+                "Type": "Basic",
+                "Category": -25,
+                "Price": 250,
+                "Texture": "{{InternalAssetKey: Assets/Objects/Objects.png}}",
+                "SpriteIndex": 3,
+                "Edibility": -300,
+                "ArtifactSpotChances": null,
+                "ExcludeFromFilshingCollection": false,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": false,
+                "ContextTags": [
+                  "color_copper",
+                  "food_sweet"
+                ]
+              }
+            }
+          },
+          {
+                        "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Saloon", "Items" ],
+            "Entries": {
+                "Example.ModId_Pufferfish": {
+                    "Id": "{{ModID}}_Cardamom",
+                    "ItemID": "{{ModID}}_Cardamom",
+                    "Price": 250
+                }
+            },
+            "MoveEntries": [
+                { "Id": "{{ModID}}_Cardamom", "BeforeId": "(O)395" }
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+          "{{ModID}}_GotoranCoffee": {
+            "Name": "Gotoran Coffee",
+            "DisplayName": "Gotoran Coffee",
+            "Description": "Oil-black and sweetly fragrant coffee with a spicy brown foam.",
+            "Type": "Basic",
+            "Category": -26,
+            "Price": 450,
+            "Edibility": 10,
+            "IsDrink": true,
+            "Buffs": [
+              {
+                "Duration": 480,
+                "CustomAttributes": {
+                  "FarmingLevel": 0,
+                  "FishingLevel": 0,
+                  "MiningLevel": 0,
+                  "LuckLevel": 0,
+                  "ForagingLevel": 0,
+                  "MaxStamina": 50,
+                  "MagneticRadius": 0,
+                  "Speed": 2,
+                  "Defense": 0,
+                  "Attack": 0
+                },
+                "CustomFields": null
+              }
+            ],
+            "Texture": "{{InternalAssetKey: Assets/Objects/Objects.png}}",
+            "SpriteIndex": 2,
+            "GeodeDropsDefaultItems": false,
+            "GeodeDrops": null,
+            "ArtifactSpotChances": null,
+            "ExcludeFromFishingCollection": false,
+            "ExcludeFromShippingCollection": false,
+            "ExcludeFromRandomSale": false,
+            "ContextTags": [
+              "color_brown"
+            ]
+          }
+        }
+      },
+      {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+          "Entries": {
+            "{{ModID}}_GotoranCoffee": "433 5 {{ModID}}_Cardamom 1/Meow/{{ModID}}_GotoranCoffee/None/Gotoran Coffee"
+          }
+        }
+     ]
+  }

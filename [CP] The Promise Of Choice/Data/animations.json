@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "daine.tpochoice_aliyah_sleep": "16/16/16",
+                "daine.tpochoice_dahlia_sleep": "20/20/20"
+            }
+        }
+    ]
+}
