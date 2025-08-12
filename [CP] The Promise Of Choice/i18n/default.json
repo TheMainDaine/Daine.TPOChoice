@@ -151,7 +151,7 @@
   "Aliyah.HighHeart.5": "I do treat some of the more esoteric members of the town on the sly.$0#$e#It is important to look after the whole of your community, even the hidden parts.$1",
   "Aliyah.HighHeart.6": "I cannot really 'perform' magic, not in any way that I could show off or reign in...$12#$e#But I will live a very long time. I understand my pack, I am never troubled by the weather, and I can smell an oncoming storm...$1",
   "Aliyah.HighHeart.7": "I do not smile much because of my teeth; I worry that people will find fangs off-putting on their therapist.$9#$e#I think perhaps I am just being self-conscious. Pietre always liked them... And they are a hit on Spirit's Eve.$1",
-  "Aliyah.HighHeart.8": "",
+  "Aliyah.HighHeart.8": "I was such a wild child, once. I have had to be fished out of trees more times than I can count, and I used to go leaping after moving things without thinking.$1#$b#I have more than a few scars from running afoul of a thorn bush. And the earful I got from our neighbors - why do you think I chase storms?$13",
   "Aliyah.HighHeart.9": "",
   "Aliyah.HighHeart.10": "",
   "Aliyah.HighHeart.11": "",
@@ -454,11 +454,11 @@ ALIYAH STRINGS
   "Strings.Aliyah.Radio.1": "When you turn the radio on, you catch it in the middle of a song:# 'And there's that call, louder than before...#And it's telling me I've found what I'm lookin' for...'",
   "Strings.Aliyah.Radio.2": "When you turn the radio on, you catch it in the middle of a song:# '... I can't save you, no matter how I try...'#'I can't seem to; you said you'd be all right...'#'I tried to warn you, but you ran right off to die -'#'I can't save you, no I can't save you...'",
   "Strings.Aliyah.Radio.3": "When you turn the radio on, you catch it in the middle of a song:# '...Just for a minute, the silver-forked sky... lit you up like a star, that I will follow...'#'Now it's found us - like I have found you. I don't wanna run, just overwhelm me....'",
-  "Strings.Aliyah.Radio.4": "When you turn the radio on, you catch it in the middle of a song:# '... Where was I, when the rockets came to life, and carried you away Into the Alligator sky?'#'Even though I'll never know what's up ahead - I'm never letting go, I'm never letting go....'",
+  "Strings.Aliyah.Radio.4": "When you turn the radio on, you catch it in the middle of a song:# '... Where was I, when the rockets came to life, and carried you away, into the Alligator sky?'#'Even though I'll never know what's up ahead - I'm never letting go, I'm never letting go....'",
   "Strings.Aliyah.Radio.5": "When you turn the radio on, you catch it in the middle of a song:# '... When the moon is looking down, shining light upon your ground...'#'I'm flying up to let you see - the shadow cast is me.'",
   "Strings.Aliyah.Radio.6": "When you turn the radio on, you catch it in the middle of a song:# 'And I wonder, when I sing along with you - If everything could ever feel this real forever....'#'If anything could ever be this good again....'",
   "Strings.Aliyah.Radio.7": "When you turn the radio on, you catch it in the middle of a song:# '...Put your ear to my heart, or your teeth against my throat,'#'Give me something pretty to wear beneath my blood-stained clothes....'",
-  "Strings.Aliyah.Radio.8": "When you turn the radio on, you catch it in the middle of a song:# '... Do you recall when you were young? You never worried 'bout the sun...'#'Now you know better - so you say... Just don't let sunshine fade away, way....'",
+  "Strings.Aliyah.Radio.8": "When you turn the radio on, you catch it in the middle of a song:# 'What if this storm ends? And leaves us nothing, except a memory, a distant echo...'#'I want pinned down. I want unsettled. Rattle cage after cage, until my blood boils...'",
   /*
 ALIYAH CUSTOM FIXED
 */
@@ -511,7 +511,7 @@ ALIYAH EVENTS
 "Aliyah.1H.3": "We've all been there.",
 "Aliyah.1H.4": "I appreciate the offer, and I do keep meaning to reach out, just...$2",
 "Aliyah.1H.QQ": "They seem to be in the middle of a conversation.",
-"Aliyah.1H.QQ1": "Go over and say hello.#Wait until it's over.",
+"Aliyah.1H.QQ1": "Go over and say hello.",
 "Aliyah.1H.QQ2": "Wait until it's over.",
 "Aliyah.1H.A1": "I do understand.",
 "Aliyah.1H.A2": "Oh, {{Honorific}} {{Surname}}, good afternoon.",
@@ -601,7 +601,7 @@ ______      _     _ _
   // LOCATIONAL DIALOGUE
   "Dahlia.LOCATION.XH": "",
   // GREEN RAIN
-  "Dahlia.GreenRain": "It's been a while since I've seen a Green Rain...$7#$e#Is everyone hiding indoors? That's so cute! You're braver than most, aren't you, darling?$1",
+  "Dahlia.GreenRain": "It's been a while since I've seen a Green Rain...$7#$e#Is everyone hiding indoors? That's so cute! You're braver than most, aren't you, {{DahlPetName}}?$1",
   "Dahlia.GreenRainFinished": "It's nice to know this valley is healthy enough for a Green Rain. It sounds like they just started recently - I wonder why?$7",
   "Dahlia.GreenRain2": "I may usually hate this season, but there's something comforting about when wild magic floods the valley, don't you think...?$7",
   // LOW HEART
@@ -824,7 +824,7 @@ DAHLIA STRINGS
 
   // RADIO
   "Strings.Dahlia.Radio.1": "Inexplicably, music resonates from the crystal:# '...Dress me in red, and throw your roses and I'll wrangle the beast with words,'#'It's a graceless dance of epithets we learn to make someone hurt....'",
-  "Strings.Dahlia.Radio.2": "Inexplicably, music resonates from the crystal:# '...Every word I say is kindling, but the smoke clears when you're 'round'#'Won't you stay with me, my darling, when my walls start burning down, down, down....?'",
+  "Strings.Dahlia.Radio.2": "Inexplicably, music resonates from the crystal:# '...Every word I say is kindling, but the smoke clears when you're 'round...'#'Won't you stay with me, my darling, when my walls start burning down, down, down....?'",
   "Strings.Dahlia.Radio.3": "Inexplicably, music resonates from the crystal:# '...Abandon all your stupid dreams about the girl I could've been, my dear'#'For in the dark I know you burn with feelings I cannot return my dear, oh my dear...'",
   "Strings.Dahlia.Radio.4": "Inexplicably, music resonates from the crystal:# 'Welcome to the show, let everybody know, I'm done playing the game, I'll break all of the chains'#'You'd better buckle up, I'll pour another cup - This is my bohème, so drink it up my friend...'",
   "Strings.Dahlia.Radio.5": "Inexplicably, music resonates from the crystal:# '... Put your hands up, before she turns and walks away'#'This is your one shot, time for your ace in the hole = time for your ace in the hole...'",
