@@ -24,10 +24,10 @@
                 "continue/-100 -100/{{Aliyah}} 18 32 3 farmer 37 33 3 Jacob 15 32 1 MadDog.HashtagBearFam.Sondra? 18 33 3 RodneyOBrien? 17 31 2/action AddMail Current Daine.SeenEvent.Aliyah received/globalFadeToClear/skippable/viewport 20 33/advancedMove farmer false -15 0 3 100/speak {{Aliyah}} \"{{i18n:Aliyah.1H.1}}\"/pause 100/textAboveHead MadDog.HashtagBearFam.Sondra? \"{{i18n:Aliyah.1H.2}}\"/pause 550/textAboveHead RodneyOBrien? \"{{i18n:Aliyah.1H.3}}\"/waitForAllStationary/emote farmer 8/pause 250/speak Jacob \"{{i18n:Aliyah.1H.4}}\"/pause 250/QuickQuestion {{i18n:Aliyah.1H.QQ}}#{{i18n:Aliyah.1H.QQ1}}#{{i18n:Aliyah.1H.QQ2}} (break) switchEvent Daine.Aliyah.1H.A (break) switchEvent Daine.Aliyah.1H.B",
 
                 "Daine.Aliyah.1H.A":
-                "pause 250/textAboveHead {{Aliyah}} \"{{i18n:Aliyah.1H.A1}}\"/advancedMove farmer false 0 1 -5 0 4 100/pause 150/waitForAllStationary/jump farmer 4/emote farmer 232/pause 250/jump RodneyOBrien? 3/faceDirection {{Aliyah}} 2/emote {{Aliyah}} 16/pause 100/emote Jacob 8/faceDirection Jacob 2/speak {{Aliyah}} \"{{i18n:Aliyah.1H.A2{{GeneralDialogueTokens}}}}\"/pause 250/faceDirection MadDog.HashtagBearFam.Sondra? 2/emote MadDog.HashtagBearFam.Sondra? 32/speak {{Aliyah}} \"{{i18n:Aliyah.1H.A3}}\"/pause 250/faceDirection Jacob 1/textAboveHead Jacob \"{{i18n:Aliyah.1H.A4}}\"/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.1H.A5}}\"/pause 250/emote Jacob 32/textAboveHead RodneyOBrien? \"{{i18n:Aliyah.1H.A6}}\"/beginSimultaneousCommand/advancedMove RodneyOBrien? false 6 0 0 3 20 0 1 100/advancedMove MadDog.HashtagBearFam.Sondra? false 20 0 1 100/speak {{Aliyah}} \"{{i18n:Aliyah.1H.A7}}\"/endSimultaneousCommand/pause 250/jump farmer 3/emote farmer 32/pause 250/speak Jacob \"{{i18n:Aliyah.1H.A8}}\"/advancedMove Jacob false 0 -8 4 100/pause 100/facedirection {{Aliyah}} 0/emote {{Aliyah}} 56/waitforallStationary/playSound doorOpen/warp Jacob 1000 1000 true/pause 250/advancedMove {{Aliyah}} false -1 0 0 1 2 100/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.1H.A9}}\"/pause 250/emote farmer 32/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.1H.A10{{GeneralDialogueTokens}}}}\"/advancedMove {{Aliyah}} false -13 0 50 0 4 100/jump farmer 2/emote farmer 32/pause 250/advancedMove farmer false 20 0 2 50/fade/viewport -1000 -1000/pause 500/end",
+                "pause 250/textAboveHead {{Aliyah}} \"{{i18n:Aliyah.1H.A1}}\"/advancedMove farmer false 0 1 -5 0 4 100/pause 150/waitForAllStationary/jump farmer 4/emote farmer 232/pause 250/jump RodneyOBrien? 3/faceDirection {{Aliyah}} 2/emote {{Aliyah}} 16/pause 100/emote Jacob 8/faceDirection Jacob 2/speak {{Aliyah}} \"{{i18n:Aliyah.1H.A2{{GeneralDialogueTokens}}}}\"/pause 250/faceDirection MadDog.HashtagBearFam.Sondra? 2/emote MadDog.HashtagBearFam.Sondra? 32/speak {{Aliyah}} \"{{i18n:Aliyah.1H.A3}}\"/pause 250/faceDirection Jacob 1/textAboveHead Jacob \"{{i18n:Aliyah.1H.A4}}\"/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.1H.A5}}\"/pause 250/emote Jacob 32/textAboveHead RodneyOBrien? \"{{i18n:Aliyah.1H.A6}}\"/beginSimultaneousCommand/advancedMove RodneyOBrien? false 6 0 0 3 30 0 1 100/advancedMove MadDog.HashtagBearFam.Sondra? false 30 0 1 100/speak {{Aliyah}} \"{{i18n:Aliyah.1H.A7}}\"/endSimultaneousCommand/pause 250/jump farmer 3/emote farmer 32/pause 250/speak Jacob \"{{i18n:Aliyah.1H.A8}}\"/advancedMove Jacob false 0 -8 4 100/pause 100/facedirection {{Aliyah}} 0/emote {{Aliyah}} 56/waitforallStationary/playSound doorOpen/warp Jacob 1000 1000 true/pause 250/advancedMove {{Aliyah}} false -1 0 0 1 2 100/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.1H.A9}}\"/pause 250/emote farmer 32/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.1H.A10{{GeneralDialogueTokens}}}}\"/advancedMove {{Aliyah}} false -13 0 50 0 4 100/jump farmer 2/emote farmer 32/pause 250/advancedMove farmer false 20 0 2 50/fade/viewport -1000 -1000/pause 500/end",
 
                 "Daine.Aliyah.1H.B":
-                "pause 250/advancedMove farmer false -3 0 0 2 4 50/textAboveHead {{Aliyah}} \"{{i18n:Aliyah.1H.B1}}\"/pause 250/speak Jacob \"{{i18n:Aliyah.1H.B2}}\"/pause 250/textAboveHead RodneyOBrien? \"{{i18n:Aliyah.1H.B3}}\"/speak {{Aliyah}} \"{{i18n:Aliyah.1H.B4}}\"/pause 250/advancedMove Jacob false 0 -8 4 100/pause 100/facedirection {{Aliyah}} up/emote {{Aliyah}} 56/waitforallStationary/emote MadDog.HashtagBearFam.Sondra? 20/advancedMove MadDog.HashtagBearFam.Sondra? false 20 0 1 100/pause 150/playSound doorOpen/warp Jacob 1000 1000 true/pause 250/advancedMove RodneyOBrien? false 6 0 0 3 20 0 1 100/pause 250/advancedMove {{Aliyah}} false 1 0 0 1 2 100/jump {{Aliyah}} 4/pause 150/emote {{Aliyah}} 16/emote farmer 32/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.1H.B5{{GeneralDialogueTokens}}}}\"/pause 250/jump farmer 4/emote farmer 32/speak {{Aliyah}} \"{{i18n:Aliyah.1H.B6}}\"/pause 250/emote farmer 56/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.1H.B7}}\"/pause 250/faceDirection {{Aliyah}} 3/pause 100/emote {{Aliyah}} 272/pause 250/emote farmer 8/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.1H.B8{{GeneralDialogueTokens}}}}\"/pause 250/advancedMove {{Aliyah}} false -13 0 50 0 4 100/jump farmer 2/emote farmer 32/pause 250/advancedMove farmer false 20 0 2 50/fade/viewport -1000 -1000/pause 500/end"
+                "pause 250/advancedMove farmer false -3 0 0 2 4 50/textAboveHead {{Aliyah}} \"{{i18n:Aliyah.1H.B1}}\"/pause 250/speak Jacob \"{{i18n:Aliyah.1H.B2}}\"/pause 250/textAboveHead RodneyOBrien? \"{{i18n:Aliyah.1H.B3}}\"/speak {{Aliyah}} \"{{i18n:Aliyah.1H.B4}}\"/pause 250/advancedMove Jacob false 0 -8 4 100/pause 100/facedirection {{Aliyah}} up/emote {{Aliyah}} 56/waitforallStationary/emote MadDog.HashtagBearFam.Sondra? 20/advancedMove MadDog.HashtagBearFam.Sondra? false 30 0 1 100/pause 150/playSound doorOpen/warp Jacob 1000 1000 true/pause 250/advancedMove RodneyOBrien? false 6 0 0 3 30 0 1 100/pause 250/advancedMove {{Aliyah}} false 1 0 0 1 2 100/jump {{Aliyah}} 4/pause 150/emote {{Aliyah}} 16/emote farmer 32/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.1H.B5{{GeneralDialogueTokens}}}}\"/pause 250/jump farmer 4/emote farmer 32/speak {{Aliyah}} \"{{i18n:Aliyah.1H.B6}}\"/pause 250/emote farmer 56/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.1H.B7}}\"/pause 250/faceDirection {{Aliyah}} 3/pause 100/emote {{Aliyah}} 272/pause 250/emote farmer 8/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.1H.B8{{GeneralDialogueTokens}}}}\"/pause 250/advancedMove {{Aliyah}} false -13 0 50 0 4 100/jump farmer 2/emote farmer 32/pause 250/advancedMove farmer false 20 0 2 50/fade/viewport -1000 -1000/pause 500/end"
             }
         },
         {
@@ -49,6 +49,78 @@
 
                 "Daine.Aliyah.2H.B2":
                 "speed {{Spreach}} 5/action IncrementStat Daine.AliLaugh 1/emote {{Aliyah}} 16/emote farmer 240/faceDirection {{Aliyah}} left/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.2H.D1}}\"/pause 250/emote farmer 32/animate {{Aliyah}} false true 250 24 25/speak {{Aliyah}} \"{{i18n:Aliyah.2H.D2}}\"/pause 250/advancedMove {{Spreach}} false -20 0 3 100/speak {{Aliyah}} \"{{i18n:Aliyah.2H.D3}}\"/speak {{Spreach}} \"{{i18n:Aliyah.2H.D4}}\"/stopAnimation {{Aliyah}} 12/jump farmer 4/jump {{Aliyah}} 4/animate {{Aliyah}} false false 500 23 23 23/emote {{Aliyah}} 16/pause 250/speak {{Aliyah}} \"{{i18n:Aliyah.2H.D5}}\"/speed {{Aliyah}} 4/advancedMove {{Aliyah}} false -20 0 3 100/animate farmer false true 200 102 103/emote farmer 224/fade/viewport -1000 -1000/pause 500/end"
+            }
+        },
+        {
+            "LogName": "Fake Multiple Choice Question Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "Daine.TestEvent.3op/t 2500 2600/!Weather rainy sunny":
+                "continue/-500 -500/Haley 31 67 3 farmer 26 67 1/globalFadeToClear/viewport 29 67/pause 500/skippable/speak Haley \"So this is a test event to check nesting Quick Question responses.<#$b#This version of the event offers two choices, along with a 'move along' or 'Skip'.$1\"/pause 250/emote farmer 32/pause 250/speak Haley \"It's been made with purely vanilla resources so anyone can test it. Ready? Here we go.\"/pause 250/quickQuestion This is the initial inquiry being posed to the farmer.#Option 1: Give me an apple.#Option 2: Give me an orange.#Option 3: Neither please, let's just move on. (break) switchEvent Daine.TestEvent.3op.A (break) switchEvent Daine.TestEvent.3op.B (break) switchEvent Daine.TestEvent.3op.End",
+
+                "Daine.TestEvent.3op.A":
+                "pause 200/speak Haley \"Okay! You picked option number one. Here is your apple.\"/addItem 613 1 0/pause 250/emote farmer 20/pause 250/speak Haley \"The question is, are we done here, or did you also want an orange?\"/emote Haley 8/pause 250/quickQuestion #I also want an orange.#No, let's just move on. (break) switchEvent Daine.TestEvent.3op.A2 (break) switchEvent Daine.TestEvent.3op.End",
+
+                "Daine.TestEvent.3op.B":
+                "pause 200/speak Haley \"Okay! You picked option number two. Here is your orange.\"/addItem 635 1 0/pause 250/emote farmer 20/pause 250/speak Haley \"The question is, are we done here, or did you also want an apple?\"/emote Haley 8/pause 250/quickQuestion #I also want an apple.#No, let's just move on. (break) switchEvent Daine.TestEvent.3op.B2 (break) switchEvent Daine.TestEvent.3op.End",
+
+                "Daine.TestEvent.3op.A2":
+                "pause 200/emote Haley 16/pause 250/speak Haley \"You really like fruit, huh! Okay, here's your orange.\"/addItem 635 1 0/emote farmer 20/pause 250/speak Haley \"We've run out of options now, so let's just continue.\"/question null \" #Yes, let's just move on.\"/emote farmer 32/emote Haley 32/switchEvent Daine.TestEvent.3op.End",
+
+                "Daine.TestEvent.3op.B2":
+                "pause 200/emote Haley 16/pause 250/speak Haley \"You really like fruit, huh! Okay, here's your apple.\"/addItem 613 1 0/emote farmer 20/pause 250/speak Haley \"We've run out of options now, so let's just continue.\"/question null \" #Yes, let's just move on.\"/emote farmer 32/emote Haley 32/switchEvent Daine.TestEvent.3op.End",
+
+                "Daine.TestEvent.3op.End":
+                "pause 200/speak Haley \"All right, that's it then! You've reached the end of the test. Remember that you can add flags or anything else you want at each switchEvent branch! Seeya, farmer.\"/pause 259/emote farmer 56/fade/viewport -1000 -1000/pause 1000/end"
+            }
+        },
+        {
+            "LogName": "Fake Multiple Choice Question Event 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "Daine.TestEvent.4op/t 2500 2600/!Weather rainy sunny":
+                "continue/-500 -500/Haley 31 67 3 farmer 26 67 1/globalFadeToClear/viewport 29 67/pause 500/skippable/speak Haley \"So this is a test event to check nesting Quick Question responses.<#$b#This version of the event offers three choices, along with a 'move along' or 'Skip to the end' option.$1#$b#I really wouldn't recommend adding more options than this. It gets very complicated, very fast.$2\"/pause 250/emote farmer 32/pause 250/speak Haley \"Anyway! It's been made with purely vanilla resources so that anyone can test it. Ready? Here we go.\"/pause 250/quickQuestion This is a test question!#Option 1: Give me an apple.#Option 2: Give me an orange.#Option 3: give me a cherry.#Option 4: I don't want anything, let's just move on. (break) switchEvent Daine.TestEvent.4op.A (break) switchEvent Daine.TestEvent.4op.B (break) switchEvent Daine.TestEvent.4op.C (break) switchEvent Daine.TestEvent.4op.End",
+
+                "Daine.TestEvent.4op.A":
+                "pause 200/speak Haley \"Okay! You picked option number one. Here is your apple.\"/addItem 613 1 0/pause 250/emote farmer 20/pause 250/speak Haley \"The question is, are we done here, or did still want more?\"/emote Haley 8/pause 250/quickQuestion #I also want an orange.#I also want a cherry.#No, let's just move on. (break) switchEvent Daine.TestEvent.4op.AB (break) switchEvent Daine.TestEvent.4op.AC (break) switchEvent Daine.TestEvent.4op.End",
+
+                "Daine.TestEvent.4op.B":
+                "pause 200/speak Haley \"Okay! You picked option number two. Here is your orange.\"/addItem 635 1 0/pause 250/emote farmer 20/pause 250/speak Haley \"The question is, are we done here, or did still want more?\"/emote Haley 8/pause 250/quickQuestion #I also want an apple.#I also want a cherry.#No, let's just move on. (break) switchEvent Daine.TestEvent.4op.BA (break) switchEvent Daine.TestEvent.4op.BC (break) switchEvent Daine.TestEvent.4op.End",
+
+                "Daine.TestEvent.4op.C":
+                "pause 200/speak Haley \"Okay! You picked option number three. Here is your cherry.\"/addItem 638 1 0/pause 250/emote farmer 20/pause 250/speak Haley \"The question is, are we done here, or did you still want more?\"/emote Haley 8/pause 250/quickQuestion #I also want an apple.#I also want an orange.#No, let's just move on. (break) switchEvent Daine.TestEvent.4op.CA (break) switchEvent Daine.TestEvent.4op.CB (break) switchEvent Daine.TestEvent.4op.End",
+
+                "Daine.TestEvent.4op.AB":
+                "pause 200/emote Haley 16/pause 250/speak Haley \"You really like fruit, huh! Okay, here's your orange.\"/addItem 635 1 0/emote farmer 20/pause 250/speak Haley \"There's just a cherry left. Do you want it?\"/pause 250/quickQuestion #Yes please, give me the cherry#No, that's enough. (break) switchEvent Daine.TestEvent.4op.C2 (break) switchEvent Daine.TestEvent.3op.End",
+
+                "Daine.TestEvent.4op.AC":
+                "pause 200/emote Haley 16/pause 250/speak Haley \"You really like fruit, huh! Okay, here's your cherry.\"/addItem 638 1 0/emote farmer 20/pause 250/speak Haley \"There's just an orange left. Do you want it?\"/pause 250/quickQuestion #Yes please, give me the orange#No, that's enough. (break) switchEvent Daine.TestEvent.4op.B2 (break) switchEvent Daine.TestEvent.3op.End",
+
+                "Daine.TestEvent.4op.BA":
+                "pause 200/emote Haley 16/pause 250/speak Haley \"You really like fruit, huh! Okay, here's your apple.\"/addItem 613 1 0/emote farmer 20/pause 250/speak Haley \"There's just a cherry left. Do you want it?\"/pause 250/quickQuestion #Yes please, give me the cherry#No, that's enough. (break) switchEvent Daine.TestEvent.4op.C2 (break) switchEvent Daine.TestEvent.3op.End",
+
+                "Daine.TestEvent.4op.BC":
+                "pause 200/emote Haley 16/pause 250/speak Haley \"You really like fruit, huh! Okay, here's your cherry.\"/addItem 638 1 0/emote farmer 20/pause 250/speak Haley \"There's just an apple left. Do you want it?\"/pause 250/quickQuestion #Yes please, give me the apple#No, that's enough. (break) switchEvent Daine.TestEvent.4op.A2 (break) switchEvent Daine.TestEvent.3op.End",
+
+                "Daine.TestEvent.4op.CA":
+                "pause 200/emote Haley 16/pause 250/speak Haley \"You really like fruit, huh! Okay, here's your apple.\"/addItem 613 1 0/emote farmer 20/pause 250/speak Haley \"There's just an orange left. Do you want it?\"/pause 250/quickQuestion #Yes please, give me the orange#No, that's enough. (break) switchEvent Daine.TestEvent.4op.B2 (break) switchEvent Daine.TestEvent.3op.End",
+
+                "Daine.TestEvent.4op.CB":
+                "pause 200/emote Haley 16/pause 250/speak Haley \"You really like fruit, huh! Okay, here's your orange.\"/addItem 635 1 0/emote farmer 20/pause 250/speak Haley \"There's just an apple left. Do you want it?\"/pause 250/quickQuestion #Yes please, give me the apple#No, that's enough. (break) switchEvent Daine.TestEvent.4op.A2 (break) switchEvent Daine.TestEvent.3op.End",
+
+                "Daine.TestEvent.4op.A2":
+                "pause 200/speak Haley \"All right, here's the apple!$1\"/additem 613 1 0/pause 200/emote Haley 20/question null \" #I think that's everything, then?\"/emote farmer 8/pause 250/switchEvent Daine.TestEvent.4op.End",
+
+                "Daine.TestEvent.4op.B2":
+                "pause 200/speak Haley \"All right, here's the orange!$1\"/additem 635 1 0/pause 200/emote Haley 20/question null \" #I think that's everything, then?\"/emote farmer 8/pause 250/switchEvent Daine.TestEvent.4op.End",
+
+                "Daine.TestEvent.4op.C2":
+                "pause 200/speak Haley \"All right, here's the cherry!$1\"/additem 638 1 0/pause 200/emote Haley 20/question null \" #I think that's everything, then?\"/emote farmer 8/pause 250/switchEvent Daine.TestEvent.4op.End",
+                
+                "Daine.TestEvent.4op.End":
+                "pause 200/speak Haley \"If you're all done with fruit, then yeah that's the end of the test. Remember that you can add flags or anything else you want at each switchEvent branch! Seeya, farmer.$1\"/pause 259/emote farmer 56/fade/viewport -1000 -1000/pause 1000/end"
             }
         }
     ]

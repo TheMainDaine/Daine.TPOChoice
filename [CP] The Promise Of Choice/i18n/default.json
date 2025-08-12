@@ -83,7 +83,7 @@
   "Aliyah.Resort_Towel.3": "",
   "Aliyah.Resort": "",
   // LOCATIONAL DIALOGUE
-  "Aliyah.LOCATION.Desk": "I am working, presently. It may be better to talk some other time {{Honorific}} {{Surname}}.",
+  "Aliyah.LOCATION.Desk": "I am working, presently. It may be better to talk some other time {{Honorific}} {{Surname}}.$15",
   // PLAYER DEATH
   "Aliyah.PlayerKilled.Mines.01": "",
   "Aliyah.PlayerKilled.Mines.02": "",
@@ -206,11 +206,11 @@
   "Aliyah.HighHeart.60": "",
   // SEASONAL 
   "Aliyah.Spring.1": "It is dandelion season. If you dehydrate the roots, you can make a tea from them that I am especially fond of...$1",
-  "Aliyah.Spring.2": "I find spring to be charming, personally. It is full of life, but without the bombast or summer, or melancholy of fall.$0#$e#It reminds me of children playing. Is that strange?$1",
+  "Aliyah.Spring.2": "I find spring to be charming, personally. It is full of life, but without the bombast or summer, or melancholy of fall.$0#$e#It reminds me of children playing. Is that strange?$21",
   "Aliyah.Spring.3": "I feel bad for people with pollen allergies. Spring is a long way from the relief that winter brings.$9",
-  "Aliyah.Spring.4": "The animals seem livelier this time of year. Perhaps it is because there are so many mothers in spring.$1",
-  "Aliyah.Spring.5": "You seem especially peppy, {{Honorific}} {{Surname}}. It is almost as if there is a 'spring' in your step.$13",
-  "Aliyah.Summer.1": "I love how light and warm it is this time of year. The whole world comes alive under sunlight, you know?$1",
+  "Aliyah.Spring.4": "The animals seem livelier this time of year. Perhaps it is because there are so many mothers in spring.$15",
+  "Aliyah.Spring.5": "You seem especially peppy, {{Honorific}} {{Surname}}. It is almost as if there is a 'spring' in your step.$22",
+  "Aliyah.Summer.1": "I love how light and warm it is this time of year. The whole world comes alive under sunlight, you know?$21",
   "Aliyah.Summer.2": "Nothing puts me more at ease than a summer thunderstorm. There is something so humbling about the bellowing sky...$1",
   "Aliyah.Summer.3": "If you are too warm, {{Honorific}} {{Surname}}, you can always get 'summ-more' ice cream from the stand near the library.$3",
   "Aliyah.Summer.4": "Do you have many fireflies out by %farm? They fly past my windows in the garden at home.$8#$e#I have been curling up with tea and a book on the swing to watch them. It is nice.$1",
@@ -325,7 +325,7 @@
   "Aliyah.GiftReaction.EggCategory": "",
   "Aliyah.GiftReaction.MilkCategory": "",
   "Aliyah.GiftReaction.FishCategory": "",
-  "Aliyah.GiftReaction.AlcoholCategory": "What do you expect me to do with this, precisely?$5",
+  "Aliyah.GiftReaction.AlcoholCategory": "What do you expect me to do with this, precisely?$19",
   // GIFT REACTIONS: ARTISNAL GOODS
   "Aliyah.GiftReaction.ArtisanCategory": "",
   // GIFT REACTIONS: BOOKS 
@@ -335,7 +335,7 @@
   "Aliyah.GiftReaction.FlowersCategory": "%Aliyah's smile is faint and fleeting, as she braids the offered flower into her hair.#$b#Thank you. I'll find a nice vase for it.#1",
   // GIFT REJECTIONS 
   "Aliyah.GiftRejection.Bouquet": "...Ah. Your interest is, flattering, but...$9",
-  "Aliyah.GiftRejection.PolySweet": "....? What is this, {{Honorific}} {{Surname}}? Did you hand this to me by mistake?$12",
+  "Aliyah.GiftRejection.PolySweet": "....? What is this, {{Honorific}} {{Surname}}? Did you hand this to me by mistake?$23",
   /*
 ALIYAH MOVIES
 */
@@ -380,9 +380,9 @@ ALIYAH FESTIVALS
   "Festivals.Aliyah.spring24.True.1": "",
   "Festivals.Aliyah.spring24.True.2": "",
   "Festivals.Aliyah.spring24.True.3": "",
-  "Festivals.Aliyah.spring24.Accept": "It would be my pleasure, dear farmer.$1",
+  "Festivals.Aliyah.spring24.Accept": "It would be my pleasure, dear farmer.$21",
   // LUAU 
-  "Festivals.Aliyah.summer11.False.1": "Mm? The soup?$0#$b#I brought some crumbled goat cheese, it should be nice and mild.$1",
+  "Festivals.Aliyah.summer11.False.1": "Mm? The soup?$20#$b#I brought some crumbled goat cheese, it should be nice and mild.22",
   "Festivals.Aliyah.summer11.False.2": "",
   "Festivals.Aliyah.summer11.False.3": "",
   "Festivals.Aliyah.summer11.True.1": "",
