@@ -73,9 +73,9 @@
             "Action": "EditMap",
             "Target": "Maps/EastScarp_DeepMountains",
             "AddWarps": [
-                "55 0 {{Aliyah}}_Yard 13 34",
-                "56 0 {{Aliyah}}_Yard 13 34",
-                "57 0 {{Aliyah}}_Yard 13 34"
+                "54 0 {{Aliyah}}_Yard 12 33",
+                "55 0 {{Aliyah}}_Yard 12 33",
+                "56 0 {{Aliyah}}_Yard 12 33"
             ]
         },
         {
@@ -83,9 +83,9 @@
             "Action": "EditMap",
             "Target": "Maps/{{Aliyah}}_Yard",
             "AddWarps": [
-                "12 35 EastScarp_DeepMountains 55 1",
-                "13 35 EastScarp_DeepMountains 55 1",
-                "14 35 EastScarp_DeepMountains 55 1"
+                "12 35 EastScarp_DeepMountains 55 3",
+                "13 35 EastScarp_DeepMountains 55 3",
+                "14 35 EastScarp_DeepMountains 55 3"
             ]
         },
         {

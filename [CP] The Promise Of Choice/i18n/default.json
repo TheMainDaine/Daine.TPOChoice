@@ -30,9 +30,9 @@
   "Aliyah.WinterEnd": "Another year older, another year wiser.#$b#May you live to see many more first sunrises, Farmer.",
   // SVE COMMUNITY DAY
   "Aliyah.CommunityCenter4": "I do love how everyone has been fully committed to community day.$1#$b#I half expected someone to bow out by now.$8",
-  "Aliyah.CommunityCenter6": "These people got me through some very difficult times in my past.$9#$b#To have them all together like this...I should cook, next time.$1",
-  "Aliyah.CommunityCenter8": "Oh, {{Honorific}} {{Surname}} - I was just reminiscing with Evelyn about when I first moved here.$8#$b#Watching you becoming a true part of our community reminded her of my early years.$1",
-  "Aliyah.CommunityCenter10": "It is good, is it not? To see everyone laugh, smile, and bicker?$1#$b#This monthly meetup has done me a world of good. Thank you for fixing this place up, {{Honorific}} {{Surname}}.$1",
+  "Aliyah.CommunityCenter6": "These people got me through some very difficult times in my past.$19#$b#To have them all together like this...I should cook, next time.$21",
+  "Aliyah.CommunityCenter8": "Oh, {{Honorific}} {{Surname}} - I was just reminiscing with Evelyn about when I first moved here.$22#$b#Watching you becoming a true part of our community reminded her of my early years.$20",
+  "Aliyah.CommunityCenter10": "It is good, is it not? To see everyone laugh, smile, and bicker?$21#$b#This monthly meetup has done me a world of good. Thank you for fixing this place up, {{Honorific}} {{Surname}}.$1",
   // FESTIVALS (DAY BEFORE)
   "Aliyah.EggFestival": "I do hope Abigail sits out the egg hunt tomorrow.$12#$b#The younger children do not need that level of competition.$11",
   "Aliyah.FlowerDance": "Tomorrow is the Flower Dance. It confused me so much when I first moved here...$1#$b#I look forward to it these days. I like dressing up.$8",
@@ -83,7 +83,11 @@
   "Aliyah.Resort_Towel.3": "",
   "Aliyah.Resort": "",
   // LOCATIONAL DIALOGUE
-  "Aliyah.LOCATION.Desk": "I am working, presently. It may be better to talk some other time {{Honorific}} {{Surname}}.$15",
+  "Aliyah.Location.Desk": "Ah... I am working, presently, {{Honorific}} {{Surname}}. It may be better to talk some other time...?$15",
+  "Aliyah.Location.Shopping": "I prefer to do my grocery shopping on Sundays, so that Pierre will have someone to talk to during services.$1",
+  "Aliyah.Location.Graveside": "Come to pay your respects? That's kind of you.$21",
+  "Aliyah.Animations.Sleeping": "....Zzzzz....$25",
+  "Aliyah.Animations.Dancing": "%She is lost to her movements, and pays you no mind.",
   // PLAYER DEATH
   "Aliyah.PlayerKilled.Mines.01": "",
   "Aliyah.PlayerKilled.Mines.02": "",
@@ -116,7 +120,7 @@
   "Aliyah.LowHeart.11": "Are you well, {{Honorific}} {{Surname}}? Have you been resting enough, eating?$0#$b#Your physical wellbeing is an important component toward good mental health. Do not neglect it.$1",
   "Aliyah.LowHeart.12": "People find anxiety in the smallest mundanities, sometimes. I am honored to be trusted with them, really.$12#$b#It is a very vulernable thing, to talk about being anxious.$9",
   "Aliyah.LowHeart.13": "Do you read often? A friend recommended a book to me, and I cannot put it down.$1#$b#It is a light-hearted high fantasy novel about war, gods, and what it takes to make a hero, with an undercurrent of monstrous romance.$4#$b#I can lend it to you, when I am done, if you like?$15",
-  "Aliyah.LowHeart.14": "I sometimes hear the strangest noises coming from the woods beyond my yard. I have not the faintest what they are, though.$12#$b#I have long since learned to live and let live, the things that lurk in the dark.$1",
+  "Aliyah.LowHeart.14": "I sometimes hear the strangest noises coming from the woods beyond my yard. I have not the faintest what they are, though.$12#$b#I have long since learned to live and let live, the things that lurk in the dark.$21",
   "Aliyah.LowHeart.15": "$y 'Are you more of a cat person, or a dog person?_Dog Person._Mm. Me too. I just get along with them, I think.$1_Cat Person._Oh... You do not dislike dogs, though, do you?$15'",
   "Aliyah.LowHeart.16": "I became an avid coffee lover in college, thanks in no small part to my late husband. Perhaps I'll share his recipe, someday.$8",
   "Aliyah.LowHeart.17": "More and more, I am surprised by how mature the young folk here have become. I knew most of them as toddlers, you know.$3",
@@ -150,9 +154,9 @@
   "Aliyah.HighHeart.4": "There are people in town who are more in-tune with magic, than others. They can be quite insightful at times.$1#$b#Although, I think they may -also- believe I am a werewolf.$13",
   "Aliyah.HighHeart.5": "I do treat some of the more esoteric members of the town on the sly.$0#$e#It is important to look after the whole of your community, even the hidden parts.$1",
   "Aliyah.HighHeart.6": "I cannot really 'perform' magic, not in any way that I could show off or reign in...$9#$e#But I will live a very long time. I understand my pack, I am never troubled by the weather, and I can smell an oncoming storm...$1",
-  "Aliyah.HighHeart.7": "I always worry about smiling too broadly because of my teeth. Fangs are not an ideal trait for a therapist, are they?$15.$9#$e#I think perhaps I am just being self-conscious. Pietre always liked them... And they are a hit on Spirit's Eve.$8",
+  "Aliyah.HighHeart.7": "I always worry that I smile too broadly because of my teeth. Fangs are not an ideal trait for a therapist, are they?$15.#$e#I think perhaps I am just being self-conscious. Pietre always liked them... And they are a hit on Spirit's Eve.$8",
   "Aliyah.HighHeart.8": "I was such a wild child, once. I have had to be fished out of trees more times than I can count, and I used to go leaping after moving things without thinking.$1#$b#I have more than a few scars from running afoul of a thorn bush. And the earful I got from our neighbors - why do you think I chase storms?$13",
-  "Aliyah.HighHeart.9": "",
+  "Aliyah.HighHeart.9": "I would give an arm and a leg for a perfume that smelled perfectly of petrichor.$20#$b#I have not found one yet, obviously. Though I have found several noble attempts.$21",
   "Aliyah.HighHeart.10": "",
   "Aliyah.HighHeart.11": "",
   "Aliyah.HighHeart.12": "",
@@ -206,7 +210,7 @@
   "Aliyah.HighHeart.60": "",
   // SEASONAL 
   "Aliyah.Spring.1": "It is dandelion season. If you dehydrate the roots, you can make a tea from them that I am especially fond of...$1",
-  "Aliyah.Spring.2": "I find spring to be charming, personally. It is full of life, but without the bombast or summer, or melancholy of fall.$0#$e#It reminds me of children playing. Is that strange?$21",
+  "Aliyah.Spring.2": "I find spring to be charming, personally. It is full of life, but without the bombast of summer, or melancholy of fall.$0#$e#It reminds me of children playing. Is that strange?$21",
   "Aliyah.Spring.3": "I feel bad for people with pollen allergies. Spring is a long way from the relief that winter brings.$9",
   "Aliyah.Spring.4": "The animals seem livelier this time of year. Perhaps it is because there are so many mothers in spring.$15",
   "Aliyah.Spring.5": "You seem especially peppy, {{Honorific}} {{Surname}}. It is almost as if there is a 'spring' in your step.$22",
@@ -307,12 +311,12 @@
   "Aliyah.TwoKids.10": "",
   // GIFT REACTIONS: BASIC
   "Aliyah.GiftReaction.Love": "Oh, I love these. What a wonderful surprise, thank you.$1",
-  "Aliyah.GiftReaction.Like": "Oh, this is lovely. I appreciate it, {{Honorific}} {{Surname}}.$0",
+  "Aliyah.GiftReaction.Like": "Oh, this is lovely. I appreciate it, {{Honorific}} {{Surname}}.$22",
   "Aliyah.GiftReaction.Dislike": "Oh... Well, I... could have done without this, actually.$15",
   "Aliyah.GiftReaction.Hate": "....$5#$b#... Thank you.$6",
-  "Aliyah.GiftReaction.Neutral": "Thank you for thinking of me.$1",
+  "Aliyah.GiftReaction.Neutral": "Thank you for thinking of me.$21",
   // GIFT REACTIONS: SPECIFIC ITEMS
-  "Aliyah.GiftReaction.RabbitFoot": "Oh, thank you... But, where is the rest of the rabbit?$9#$b#Never mind, thank you for thinking of me.$1",
+  "Aliyah.GiftReaction.RabbitFoot": "Oh, thank you... But, where is the rest of the rabbit?$15#$b#Never mind, thank you for thinking of me.$18",
   // GIFT REACTIONS: GEMS, MINERALS, ARTIFACTS
   "Aliyah.GiftReaction.GemCategory": "",
   "Aliyah.GiftReaction.MineralCategory": "",
@@ -485,7 +489,7 @@ ALIYAH EVENTS
 
 "Aliyah.Intro.1": "Hm?",
 "Aliyah.Intro.2": "Oh - !",
-"Aliyah.Intro.3": "Thank you. I did not realize I had dropped something...$7",
+"Aliyah.Intro.3": "Thank you. I did not realize I had dropped something...$18",
 "Aliyah.Intro.4": "I should... probably get this all home.$15",
 "Aliyah.Intro.5": "Please take care.",
 "Aliyah.Intro.6": "...Actually.$12",
@@ -554,6 +558,32 @@ ALIYAH EVENTS
 "Aliyah.2H.D4": "BARK BARK BARK BARK BARK!$5", // For Translators: Spreach has seen a squirrel and is barking as he starts to run after it.
 "Aliyah.2H.D5": "Ack, I think he saw a squirrel - I am sorry, I need to go and catch him before this becomes a problem. Please take care, farmer! I will see you some other time - !$7",
 
+"Aliyah.3H.1": "Hello there, {{Honorific}} {{Surname}}! Fancy meeting you here.$22",
+"Aliyah.3H.NQ.1": "Aliyah! Spreach! Good to see you!",
+"Aliyah.3H.NQ.2": "What are you two doing down here in the Scarp?",
+"Aliyah.3H.2": "I beg your pardon? I happen to live here, more or less. It is a much longer walk to %farm farm. $14#$b#%Aliyah's grin is faint but warm, crinkling her eyes at the corners.",
+"Aliyah.3H.3": "What brings you out this way, farmer?$1",
+"Aliyah.3H.QQ.1": "Just taking a walk. It feels nice to wander.",
+"Aliyah.3H.QQ.2": "Errands, mostly - oh, did you need anything, since I'm around?",
+"Aliyah.3H.A1": "Ah, so that would mean you're free right now?$20",
+"Aliyah.3H.A2": "I was thinking perhaps I could treat you to coffee, today. Come, I will even show you how I make it, this time.$21",
+"Aliyah.3H.A3": "I learned to make coffee like this shortly after I moved here, actually. While I was still studying psychiatry, someone quite dear to me taught me.$21",
+"Aliyah.3H.A4": "Here you are...",
+"Aliyah.3H.A5": "You remind me a bit of when I first moved here, you know.$15",
+"Aliyah.3H.A6": "I had just started postgrad, and I was always scrambling all over to be neighborly. I see you making a familiar runaround...$13",
+"Aliyah.3H.A7": "I think that it speaks well of you. I appreciate the effort you have made to visit, despite the trek to get here.$1#$b#I just also want you to know that you can drop by any time you need to simply rest. Farm work is demanding, after all. I will make time for you.$22",
+"Aliyah.3H.A8": "I want to be sure you understand that I mean it. Do not be a stranger, {{Honorific}} {{Surname}}.$21",
+"Aliyah.3H.B1": "Need...? No, I do not need anything.$16",
+"Aliyah.3H.B2": "People must have you running errands all over, hum...?$17#$b#Actually, I did want to speak to you about something tangential. Come have coffee with me. I will even show you how I make it, this time.",
+"Aliyah.3H.B3": "I learned to make coffee like this shortly after I moved here, actually. While I was still studying psychiatry, someone quite dear to me taught me.$21",
+"Aliyah.3H.B4": "Here you are...",
+"Aliyah.3H.B5": "You remind me a bit of when I first moved here, you know.$15",
+"Aliyah.3H.B6": "I had just started postgrad, and I was always scrambling all over to be neighborly. I see you making a familiar runaround...$13#$b#It... worries me, if I am to be honest.$17",
+"Aliyah.3H.B7": "I think that it speaks well of you. But I remember going to such lengths trying to please everyone, that I burnt myself out.$9#$b#In light of that, I wish to extend invitation and reassurance; please come visit whenever you need a break. I will make time to sit and have coffee with you.$15#$b#Or tea, if you prefer.$1",
+"Aliyah.3H.B8": "I want to be sure you understand that I mean it. Do not be a stranger, {{Honorific}} {{Surname}}.$21",
+"Aliyah.3H.Recipe": "You learned how to make Gotoran coffee!",
+"Aliyah.3H.ANIMATIONPLACEHOLDER": "[Placeholder] Aliyah is making coffee in a strange sand pit on the counter.",
+
   /*
 ALIYAH CON TOPICS
 /*
@@ -600,6 +630,8 @@ ______      _     _ _
   "Dahlia.WinterStar": "I won't be at the feast tomorrow, so let me give you your present now...[872]$1#$e#Have a happy new year, @!#6",
   // LOCATIONAL DIALOGUE
   "Dahlia.LOCATION.XH": "",
+  // ANIMATION DIALOGUE
+  "Dahlia.Animations.Sleeping": "Mmmm.....$7",
   // GREEN RAIN
   "Dahlia.GreenRain": "It's been a while since I've seen a Green Rain...$7#$e#Is everyone hiding indoors? That's so cute! You're braver than most, aren't you, {{DahlPetName}}?$1",
   "Dahlia.GreenRainFinished": "It's nice to know this valley is healthy enough for a Green Rain. It sounds like they just started recently - I wonder why?$7",
@@ -879,6 +911,45 @@ DAHLIA EVENTS
 "Dahlia.1HB.2": "I like to sing, I dance, I can play a few instruments, but that's all vaguely theatrical...$9",
 "Dahlia.1HB.3": "Oh, I know! I really love flowers! I've never grown any myself, but I've been learning to identify them for years now.$6#$b#They're not very common where I'm from - it's kind of chilly there - and I'm really just in love with how colorful they are.$7",
 "Dahlia.1HB.4": "One day, maybe, I'll have a little garden of my own. Until then, I'll just admire all the public flower boxes, I think.$1#$b#That was a fun one! People don't usually ask about my hobbies, {{DahlPetName}}! You're full of surprises, huh?$6",
+
+"Dahlia.2H.1": "So I don't think I've ever asked, {{DahlPetName}} - what ARE you doing in the Valley, anyway?",
+"Dahlia.2H.QN.1": "I've been working for Joja for a while and needed a change of pace after all that.",
+"Dahlia.2H.QN.2": "My grandfather left me a farm out here when he passed, and I decided to see what it was like.",
+"Dahlia.2H.2": "That's... that's it?$19",
+"Dahlia.2H.3": "I mean, that's a fine reason to move, I suppose, I just... I don't know. I kind of expected something a little more... intentional? Premeditated, maybe...?$15",
+"Dahlia.2H.4": "I am glad that you're making a better life for you, though, I am! Don't get that mistaken, I'm just... surprised? Yes.$3#$b#You, you are happier, right?$9",
+"Dahlia.2H.QQ.1": "What kind of roles did you play before you came here?",
+"Dahlia.2H.QQ.2": "...What is it like, where you're from, then?",
+"Dahlia.2H.A1": "Oh, I've played all sorts of things before! < $1",
+"Dahlia.2H.A2": "Most recently I was in something of a mentor's role, guiding a few young folk in the early throes of adulthood toward their dreams.$6#$b#I've also played a villainess, the one people tell stories to their children about, I've stood over chasms as a bridge of diplomacy, I've been the odd old biddy in the woods-$7#$b#Even a damsel in distress, that role was fun. < $1",
+"Dahlia.2H.A3": "I remember each performance as clearly as a photograph... oh, but I don't want to regress into old roles. I have to keep moving forward, you know?$7",
+"Dahlia.2H.A4": "Anyway, um, sorry about being weird, I really am happy for you, I just... never mind. Thank you for sharing, {{DahlPetName}}.$10",
+"Dahlia.2H.A5": "So what were you planning to do today, anyway?",
+"Dahlia.2H.B1": "Oh. Well, it's, you know...$3",
+"Dahlia.2H.B2": "Different. Really very... very different from here. Honestly, I don't always feel like I've done the best job adjusting.$18",
+"Dahlia.2H.B3": "That's not a bad thing, though! New experiences help people grow, don't they? It doesn't matter if I'm from somewhere different, does it?$10#$b#As long as you don't mind being a little bit patient, I know I can say strange things from time to time. And I DO like it better here. At least, I think I do...?$14",
+"Dahlia.2H.B4": "Well, never mind any of that!",
+"Dahlia.2H.B5": "I didn't come here to insult you, so I am sorry for my behavior earlier, I'm just terrible at hiding when I've been startled. I hope you can look past it, {{DahlPetName}}",
+"Dahlia.2H.B6": "Then let's get going, shall we?$7",
+"Dahlia.2H.B7": "o I wanted to see what Aideen was growing...",
+
+"Dahlia.3H.1": "These caves....$18",
+"Dahlia.3H.2": "...sigh....",
+"Dahlia.3H.3": "Oh... Hi, {{DahlPetName}}.$21",
+"Dahlia.3H.4": "Do you know very much about this place?$15",
+"Dahlia.3H.QN.1": "Yeah, this used to be a pretty active mine back in the day, but it's dangerous for most people now.",
+"Dahlia.3H.QN.2": "It's dark and full of dangerous monsters! Adventurers head in to clear it out sometimes.",
+"Dahlia.3H.5": "So it's dangerous. But it's just left open?$22",
+"Dahlia.3H.6": "I wonder if you've had a lot of exposure to inhumans. Have you formed much of an opinion on us, or is it just... me and the caves?$18",
+"Dahlia.3H.QQ.1": "Um... It's mostly the monsters... don't worry though! I don't have a problem with anyone who's not trying to hurt people.",
+"Dahlia.3H.QQ.2": "You're not the first. But it's still pretty cool to meet an Elf!",
+"Dahlia.3H.A1": "Hurting people, huh. I guess that makes sense. Where's the line drawn, though? Between what's perceived as incidental hurting, and intentional?$21#$b#.... And where's the line drawn on people, for that matter....$20",
+"Dahlia.3H.A2": "I'm sorry. I think I'm getting a little bit in my head about this. Maybe it's something about the altitude.$10",
+"Dahlia.3H.A3": "Don't worry about it. I'm sorry if I surprised you, you were coming up here for a reason, right?$14#$b#I'll let you get to it. Thank you, @ - you've given me a lot to think about.$7",
+"Dahlia.3H.B1": "An Elf? Oh. Well, yes, I suppose it would be...$3",
+"Dahlia.3H.B2": "That's - I'm getting distracted.$11#$b#It's good to know that your opinion isn't based on me alone, though I suppose I'm still an unusual sight all the same.$15",
+"Dahlia.3H.B3": "I'm getting a little caught up in my head about this, I think, I keep running myself in circles.$10#$b#I'm sorry, I must be coming across as so strange. Please don't worry about it - I'll let you get back to whatever you came up here for.$14",
+"Dahlia.3H.B4": "Thank you for giving me a lot to think about, @. I'll see you later, okay?$6",
 
 // DAHLIA CON Topics
 

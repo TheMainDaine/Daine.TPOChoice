@@ -2937,8 +2937,8 @@
   <data encoding="csv">
 6086,387,0,0,0,387,6084,
 6128,387,0,0,0,412,6126,
-0,437,436,0,0,437,0,
-0,0,0,0,0,0,0,
+0,437,0,0,0,437,0,
+0,436,0,0,0,0,0,
 0,0,0,0,0,0,0
 </data>
  </layer>
@@ -2954,8 +2954,8 @@
  <layer id="7" name="Front" width="7" height="5">
   <data encoding="csv">
 0,0,0,0,0,0,0,
-0,0,411,0,0,0,0,
 0,0,0,0,0,0,0,
+0,411,0,0,0,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0
 </data>
@@ -2972,7 +2972,7 @@
  <objectgroup id="2" name="Back"/>
  <objectgroup id="20" name="Back1"/>
  <objectgroup id="4" name="Buildings">
-  <object id="6" name="TileData" x="32" y="32" width="16" height="16">
+  <object id="6" name="TileData" x="16" y="48" width="16" height="16">
    <properties>
     <property name="Action" value="Message AliMountainSign"/>
    </properties>

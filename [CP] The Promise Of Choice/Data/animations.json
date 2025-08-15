@@ -4,8 +4,20 @@
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
             "Entries": {
-                "daine.tpochoice_aliyah_sleep": "16/16/16",
-                "daine.tpochoice_dahlia_sleep": "20/20/20"
+                "daine.tpochoice_aliyah_sleep": "16/16/16//offset 0 -8/laying_down",
+                "{{Aliyah}}_nap": "16/16/16//offset 0 -8/laying_down",
+                "{{Aliyah}}_sweep": "17/17 18 19 18/17",
+                "{{Aliyah}}_study": "20/21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 22 22 22 22 22 21/20",
+                "{{Aliyah}}_sit_down": "28/28/28//offset 0 -64/laying_down",
+                "{{Aliyah}}_sit_right": "29/29/29//offset 56 8/laying_down",
+                "{{Aliyah}}_sit_up": "30/30/30//offset 0 -64/laying_down",
+                "{{Aliyah}}_sit_left": "31/31/31//offset -56 8/laying_down",
+                "{{Aliyah}}_bench_right": "29/29/29//offset -56 8/laying_down",
+                "{{Aliyah}}_bench_left": "31/31/31//offset 56 8/laying_down",
+                "{{Aliyah}}_drink_left": "31/32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 34 35 35 35 35 34 33 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 34 35 35 35 35 34 33 32 32 32 32 32 32/31//offset -56 8/laying_down",
+                "{{Aliyah}}_idle_up": "67/67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 68 67 67 67 67 67 67 67 67 67 67 68 69 68 69 68 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67/67//offset 0 -8",
+                "daine.tpochoice_dahlia_sleep": "20/20/20//laying_down",
+                "{{Dahlia}}_nap": "20/20/20//laying_down"
             }
         }
     ]

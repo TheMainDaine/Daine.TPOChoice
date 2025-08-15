@@ -23,7 +23,7 @@
         "AcceptGift_Dislike": "{{i18n:Aliyah.GiftReaction.Dislike{{GeneralDialogueTokens}}}}",
         "AcceptGift_Hate": "{{i18n:Aliyah.GiftReaction.Hate{{GeneralDialogueTokens}}}}",
         //Specific Gifts
-        "AcceptGift.(O)446": "{{i18n:Aliyah.GiftReaction.RabbitFoot{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)446": "{{i18n:Aliyah.GiftReaction.RabbitFoot{{GeneralDialogueTokens}}}}",
         //Gift Rejections
         "RejectItem_alcohol_item": "{{i18n:Aliyah.GiftReaction.AlcoholCategory{{GeneralDialogueTokens}}}}",
         "RejectItem_(O)458":"{{i18n:Aliyah.GiftRejection.Bouquet{{GeneralDialogueTokens}}}}",
@@ -31,6 +31,12 @@
         "RejectItem_(O)ApryllForever.CPPolyamorySweet_AtagartisPendant": "{{i18n:Aliyah.GiftRejection.Polysweet{{GeneralDialogueTokens}}}}",
         "RejectItem_(O)ApryllForever.CPPolyamorySweet_MermaidBouquet": "{{i18n:Aliyah.GiftRejection.Polysweet{{GeneralDialogueTokens}}}}",
         "RejectItem_(O)ApryllForever.CPPolyamorySweet_RoomieBGone": "{{i18n:Aliyah.GiftRejection.Polysweet{{GeneralDialogueTokens}}}}",
+
+        //Locational Dialogue Strings
+        "SeedShop_12_25": "{{i18n:Aliyah.Location.Shopping{{GeneralDialogueTokens}}}}",
+        "Daine.TPOChoice_Aliyah_House_18_36": "{{i18n:Aliyah.Location.Desk{{GeneralDialogueTokens}}}}",
+        "Daine.TPOChoice_Aliyah_House_4_13": "{{i18n:Aliyah.Animations.Sleeping}}",
+        "Daine.TPOChoice_Aliyah_Yard_9_26": "{{i18n:Aliyah.Location.Graveside}}",
 
         //Pre-Festival Dialogue
         "spring_12": "{{i18n:Aliyah.EggFestival{{GeneralDialogueTokens}}}}",
