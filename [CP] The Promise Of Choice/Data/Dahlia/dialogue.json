@@ -13,7 +13,7 @@
         "cc_Begin": "{{i18n:Dahlia.CCBegin}}",
         "cc_Bus": "{{i18n:Dahlia.CCBus}}",
         "cc_Minecart": "{{i18n:Dahlia.CCMinecart}}",
-        "cc_Complete": "{{i18n:Dahlia.CCComplet}}",
+        "cc_Complete": "{{i18n:Dahlia.CCComplete}}",
         "movieTheater": "{{i18n:Dahlia.MovieTheater}}",
         //Gift Tastes
         "AcceptGift_(O)StardropTea": "{{i18n:Dahlia.GiftReaction.StardropTea}}",
@@ -61,7 +61,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/{{Dahlia}}",
       "Entries": {
-        "{{WeekDay}}": "{{i18n:Dahlia.LowHeart.{{Random:{{Range: 1, 17}}}}|DahlPetName={{DahlPetName}}}}"
+        "{{WeekDay}}": "{{i18n:Dahlia.LowHeart.{{Random:{{Range: 1, 18}}}}|DahlPetName={{DahlPetName}}}}"
       }
     },
     {

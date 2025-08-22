@@ -87,7 +87,7 @@
   "Aliyah.Location.Shopping": "I prefer to do my grocery shopping on Sundays, so that Pierre will have someone to talk to during services.$1",
   "Aliyah.Location.Graveside": "Come to pay your respects? That's kind of you.$21",
   "Aliyah.Animations.Sleeping": "....Zzzzz....$25",
-  "Aliyah.Animations.Dancing": "%She is lost to her movements, and pays you no mind.",
+  "Aliyah.Animations.Dancing": "%She is lost to her dance, and pays you no mind.",
   // PLAYER DEATH
   "Aliyah.PlayerKilled.Mines.01": "",
   "Aliyah.PlayerKilled.Mines.02": "",
@@ -119,16 +119,16 @@
   "Aliyah.LowHeart.10": "It can never rain enough for me. It is my favorite weather. You may even catch me dancing in it, if you look hard enough.$1",
   "Aliyah.LowHeart.11": "Are you well, {{Honorific}} {{Surname}}? Have you been resting enough, eating?$0#$b#Your physical wellbeing is an important component toward good mental health. Do not neglect it.$1",
   "Aliyah.LowHeart.12": "People find anxiety in the smallest mundanities, sometimes. I am honored to be trusted with them, really.$12#$b#It is a very vulernable thing, to talk about being anxious.$9",
-  "Aliyah.LowHeart.13": "Do you read often? A friend recommended a book to me, and I cannot put it down.$1#$b#It is a light-hearted high fantasy novel about war, gods, and what it takes to make a hero, with an undercurrent of monstrous romance.$4#$b#I can lend it to you, when I am done, if you like?$15",
+  "Aliyah.LowHeart.13": "Do you read often? A friend recommended a book to me, and I cannot put it down.$1#$b#It is a light-hearted high fantasy novel about war, gods, and what it takes to make a hero, with an undercurrent of monstrous romance.$4#$b#I can lend it to you, when I am done, if you like?$15#$e#Oh. No, this isn't for book club. I'm reading this one for me.$3",
   "Aliyah.LowHeart.14": "I sometimes hear the strangest noises coming from the woods beyond my yard. I have not the faintest what they are, though.$12#$b#I have long since learned to live and let live, the things that lurk in the dark.$21",
   "Aliyah.LowHeart.15": "$y 'Are you more of a cat person, or a dog person?_Dog Person._Mm. Me too. I just get along with them, I think.$1_Cat Person._Oh... You do not dislike dogs, though, do you?$15'",
   "Aliyah.LowHeart.16": "I became an avid coffee lover in college, thanks in no small part to my late husband. Perhaps I'll share his recipe, someday.$8",
   "Aliyah.LowHeart.17": "More and more, I am surprised by how mature the young folk here have become. I knew most of them as toddlers, you know.$3",
-  "Aliyah.LowHeart.18": "",
-  "Aliyah.LowHeart.19": "",
-  "Aliyah.LowHeart.20": "",
-  "Aliyah.LowHeart.21": "",
-  "Aliyah.LowHeart.22": "",
+  "Aliyah.LowHeart.18": "There are some unique challenges to working with a small community like this. All my patients are on a first-name basis with one another.$15#$b#They ask after one another often; but I am sworn to confidentiality. At least they are good-natured about my refusal to gossip.$13",
+  "Aliyah.LowHeart.19": "I run a book club in my home once a month for some friends in the Scarp. We all take turns picking what to read, it has been fun.$20",
+  "Aliyah.LowHeart.20": "Mmmm... I am sorry, {{Honorific}} {{Surname}}, I am a bit sleepy today, I stayed up rather late last night.$18#$b#I was stargazing, and I just lost track of time. There is something unfathomly romantic about the night sky, is there not...?$15",
+  "Aliyah.LowHeart.21": "I have had dogs since I was a child. Spreach is the latest in a long line of lifetime companions.$21#$b#If I have my way, it is a procession that will last for as long as I do.$1",
+  "Aliyah.LowHeart.22": "Spreach got into some poison ivy, {{Honorific}} {{Surname}}, please be careful if you pet him. Try to avoid his left flank.$9",
   "Aliyah.LowHeart.23": "",
   "Aliyah.LowHeart.24": "",
   "Aliyah.LowHeart.25": "",
@@ -154,14 +154,14 @@
   "Aliyah.HighHeart.4": "There are people in town who are more in-tune with magic, than others. They can be quite insightful at times.$1#$b#Although, I think they may -also- believe I am a werewolf.$13",
   "Aliyah.HighHeart.5": "I do treat some of the more esoteric members of the town on the sly.$0#$e#It is important to look after the whole of your community, even the hidden parts.$1",
   "Aliyah.HighHeart.6": "I cannot really 'perform' magic, not in any way that I could show off or reign in...$9#$e#But I will live a very long time. I understand my pack, I am never troubled by the weather, and I can smell an oncoming storm...$1",
-  "Aliyah.HighHeart.7": "I always worry that I smile too broadly because of my teeth. Fangs are not an ideal trait for a therapist, are they?$15.#$e#I think perhaps I am just being self-conscious. Pietre always liked them... And they are a hit on Spirit's Eve.$8",
+  "Aliyah.HighHeart.7": "I always worry that I smile too broadly because of my teeth. Fangs are not an ideal trait for a therapist, are they?$15.#$e#I think perhaps I am just being self-conscious. Atzar always liked them... And they are a hit on Spirit's Eve.$8",
   "Aliyah.HighHeart.8": "I was such a wild child, once. I have had to be fished out of trees more times than I can count, and I used to go leaping after moving things without thinking.$1#$b#I have more than a few scars from running afoul of a thorn bush. And the earful I got from our neighbors - why do you think I chase storms?$13",
   "Aliyah.HighHeart.9": "I would give an arm and a leg for a perfume that smelled perfectly of petrichor.$20#$b#I have not found one yet, obviously. Though I have found several noble attempts.$21",
-  "Aliyah.HighHeart.10": "",
-  "Aliyah.HighHeart.11": "",
-  "Aliyah.HighHeart.12": "",
-  "Aliyah.HighHeart.13": "",
-  "Aliyah.HighHeart.14": "",
+  "Aliyah.HighHeart.10": "I never had children with Atzar, so I have sort of... adopted half the town, I think.$15#$b#Not in the literal sense, of course, but I care about them dearly.$18",
+  "Aliyah.HighHeart.11": "What are you reading lately, {{Honorific}} {{Surname}}? I am having just the most fun with a comedic detective novel about a disgraced policeman trying to determine who has been burning his city down.$1#$b#It is dragons. Except dragons are not supposed to exist, you see, not the big ones.$14#$b#It is not even a spoiler, we find out about the dragon in the very first pages, the mystery is in finding out who is calling the beast, and how the entire affair will be resolved. Also I have read this nine times already. I really like this book.$8",
+  "Aliyah.HighHeart.12": "The wolves are like children to me. They are of course, all adults now, and they are wild animals; but they visit, they trust me.$21#$b#I have even been present for the birth of one or two of the pups, since moving here.$1",
+  "Aliyah.HighHeart.13": "May I share an amusing secret, {{Honorific}} {{Surname}}? I have actually inherited a dreadfully keen prey drive. It is sometimes hard to repress.$14@$b#I cannot tell you how many times I have knocked something over at home trying to pounce on a fly.$3#$e#Wild rabbits are the worst of the lot. They are my favorite food, and something about how they dart across a field... That is actually where the scar on my lip comes from.$4",
+  "Aliyah.HighHeart.14": "Why do I love rain so much? It is somewhat difficult to explain, actually, but let me see...$15#$b#It makes me feel like some sort of pressure release has been loosened. A steam vent, opened up. I believe the technical term is 'stimming'.$8",
   "Aliyah.HighHeart.15": "",
   "Aliyah.HighHeart.16": "",
   "Aliyah.HighHeart.17": "",
@@ -173,62 +173,73 @@
   "Aliyah.HighHeart.23": "",
   "Aliyah.HighHeart.24": "",
   "Aliyah.HighHeart.25": "",
-  "Aliyah.HighHeart.26": "",
-  "Aliyah.HighHeart.27": "",
-  "Aliyah.HighHeart.28": "",
-  "Aliyah.HighHeart.29": "",
-  "Aliyah.HighHeart.30": "",
-  "Aliyah.HighHeart.31": "",
-  "Aliyah.HighHeart.32": "",
-  "Aliyah.HighHeart.33": "",
-  "Aliyah.HighHeart.34": "",
-  "Aliyah.HighHeart.35": "",
-  "Aliyah.HighHeart.36": "",
-  "Aliyah.HighHeart.37": "",
-  "Aliyah.HighHeart.38": "",
-  "Aliyah.HighHeart.39": "",
-  "Aliyah.HighHeart.40": "",
-  "Aliyah.HighHeart.41": "",
-  "Aliyah.HighHeart.42": "",
-  "Aliyah.HighHeart.43": "",
-  "Aliyah.HighHeart.44": "",
-  "Aliyah.HighHeart.45": "",
-  "Aliyah.HighHeart.46": "",
-  "Aliyah.HighHeart.47": "",
-  "Aliyah.HighHeart.48": "",
-  "Aliyah.HighHeart.49": "",
-  "Aliyah.HighHeart.50": "",
-  "Aliyah.HighHeart.51": "",
-  "Aliyah.HighHeart.52": "",
-  "Aliyah.HighHeart.53": "",
-  "Aliyah.HighHeart.54": "",
-  "Aliyah.HighHeart.55": "",
-  "Aliyah.HighHeart.56": "",
-  "Aliyah.HighHeart.57": "",
-  "Aliyah.HighHeart.58": "",
-  "Aliyah.HighHeart.59": "",
-  "Aliyah.HighHeart.60": "",
+  // NPC Pools
+  "Aliyah.Nieblings.1": "It is remarkable how different Miguel and Raquel are, in some ways, {{Honorific}} {{Surname}}. Raquel acts as if she has the world on her shoulders.$10#$b#Meanwhile, Miguel sometimes laughs so hard at nothing he will fall off the couch. They both love each other very dearly though, that much is obvious.$15",
+  "Aliyah.Nieblings.2": "Raquel helps me with dinner on evenings where she does not work. She was delighted to see the sand-warmer on the counter, too. We have really been bonding over food, as of late.$1#$b#Which is funny, because I expected that much more from her brother. {{Honorific}} {{Surname}}, he eats so much. I do not know where he puts it.$3",
+  "Aliyah.Nieblings.3": "I have been considering getting a television lately. I have never really wanted one before, but Miguel shuts himself up in his room to watch some show or another every week...$9",
+  "Aliyah.Nieblings.4": "Adjusting to living with other people again has been an experience. All three of us have long hair, so the shower drain has become something of a war zone...$15",
+  "Aliyah.Nieblings.5": "Atzar was much, much younger than his siblings, so my niece and nephew are only a few years younger than I am.$1#$b#It is... nice, though, having them here. I was never able to be a mother, myself, so it means very much to me to be able to share my home with family.$18",
+  "Aliyah.Nieblings.6": "Has Raquel seemed off to you at all, lately? She was terribly short on the way out the door, today...$17#$e#I could just be overthinking things. She does work very hard, after all.",
+  "Aliyah.Nieblings.7": "{{Honorific}} {{Surname}}, I have a... delicate question, if I may.$9#$b#Do you... know. What Miguel's major, is? Every time I ask what he is studying, he launches into an explanation of something completely different.$19",
+  "Aliyah.Nieblings.8": "Stars and moonlight, I cannot tell you how grateful I am that you have gotten %farm farm up and running again. My grocery bill has skyrocketed with my niece and nephew.$15#$b#I hate to think how much food would cost if we were still relying on imports for everything. You are truly a life-saver, farmer.$13",
+  "Aliyah.Nieblings.9": "Last week, Miguel was talking avidly about a new start up he was joining to sell personalized perfume scents online.$9#$b#This week, it is personally-curated musical compositions to study to. He has been planning a quiz-based submission form for accuracy.$9#$b#He has so much energy, and so much constant enthusiasm, it is hard to judge what is going to stick, and what will not.$15",
+  "Aliyah.Nieblings.10": "I am glad my niece and nephew have very distinct favorite colors. It makes it very easy to sort the laundry, despite a lack of familiarity.$1#$b#Red? That goes to Raquel. Green? Up to Miguel, then. And of course, anything blue is most likely mine - but I already knew which clothes I own.$14",
+  "Aliyah.Nieblings.11": "It turns out Miguel and I have similar tastes in books! That was fun to find out.$22#$b#He does not hang around during Book Club, but he always shows up right as it ends to ask about what we're reading this time. He really is such a sweet young man.$1",
+  "Aliyah.Nieblings.12": "Raquel is a phenominal cook; it makes sense, given she has been managing her household for some time now.$21#$b#She has been sharing recipes with me, and vice-versa. Doing so has become a weekly get-together, as we meal plan together.$22",
+  "Aliyah.Nieblings.13": "Does Miguel also remind you of a puppy, or is it only me who sees that?$20",
+  "Aliyah.Nieblings.14": "Does Raquel also remind you of a guard dog, or is it only me who sees that?$20",
+  "Aliyah.Nieblings.15": "I was not sure how it was going to go, taking in my niece and nephew, but I can truly say that my life has not been this full in years.$1#$b#I was nervous that we would not get along! I am glad that I worried for nothing.$18",
+
+  "Aliyah.Iris.1": "",
+  "Aliyah.Iris.2": "",
+  "Aliyah.Iris.3": "",
+  "Aliyah.Iris.4": "",
+  "Aliyah.Iris.5": "",
+  "Aliyah.Iris.6": "",
+  "Aliyah.Iris.7": "",
+  "Aliyah.Iris.8": "",
+  "Aliyah.Iris.9": "",
+  "Aliyah.Iris.10": "",
+
+  "Aliyah.Dahlia.1": "I've noticed a white-haired woman in town lately. She says she is an actress, and certainly has the mannerisms of one...$9#$b#But her name is entirely unfamiliar. Also, I feel like her pointed ears would have made a bit of a media stir. Any thoughts?$10",
+  "Aliyah.Dahlia.2": "Miss Hellebore - Dahlia - seems to find joy in every little thing, does she not?$20#$b#Honestly, it is supremely charming, and that energy is something I think people could stand to learn from.$21",
+  "Aliyah.Dahlia.3": "I just ran into miss Hellebore, {{Honorific}} {{Surname}}, and she asked me roughly fifty questions about you.$18#$b#Strange things, too. About heroism, morality, if you had some sort of code...? I had no idea, and told her as much, but...$9#$b#Are you two friends? What in the stars do you two talk about, farmer?$15",
+  "Aliyah.Dahlia.4": "I cannot quite figure out where it is that miss Hellebore - er, Dahlia - lives. She must rouse awfully early, I only ever encounter her out and about.$15",
+  "Aliyah.Dahlia.5": "I do think it is sweet, how much miss Hellebore seems to simply... like people? She is very kind to just about everyone in town.$21#$b#I have even seen her go out of her way to tell the local strays what she likes about them. It is terribly endearing.$8",
+
   // SEASONAL 
   "Aliyah.Spring.1": "It is dandelion season. If you dehydrate the roots, you can make a tea from them that I am especially fond of...$1",
   "Aliyah.Spring.2": "I find spring to be charming, personally. It is full of life, but without the bombast of summer, or melancholy of fall.$0#$e#It reminds me of children playing. Is that strange?$21",
   "Aliyah.Spring.3": "I feel bad for people with pollen allergies. Spring is a long way from the relief that winter brings.$9",
   "Aliyah.Spring.4": "The animals seem livelier this time of year. Perhaps it is because there are so many mothers in spring.$15",
   "Aliyah.Spring.5": "You seem especially peppy, {{Honorific}} {{Surname}}. It is almost as if there is a 'spring' in your step.$22",
+  "Aliyah.Spring.6": "%farm farm must be terribly busy right now, {{Honorific}} {{Surname}}, I imagine business is blooming in the spring.$22",
   "Aliyah.Summer.1": "I love how light and warm it is this time of year. The whole world comes alive under sunlight, you know?$21",
   "Aliyah.Summer.2": "Nothing puts me more at ease than a summer thunderstorm. There is something so humbling about the bellowing sky...$1",
   "Aliyah.Summer.3": "If you are too warm, {{Honorific}} {{Surname}}, you can always get 'summ-more' ice cream from the stand near the library.$3",
   "Aliyah.Summer.4": "Do you have many fireflies out by %farm? They fly past my windows in the garden at home.$8#$e#I have been curling up with tea and a book on the swing to watch them. It is nice.$1",
   "Aliyah.Summer.5": "I am not exactly a hot house flower, but I would rather it be warm than cold. You must be busy, though.$15",
+  "Aliyah.Summer.6": "I am surprised we do not get more tourism this time of year. We have a lovely beachfront, after all.$8#$b#You would think that people would flock here, to sea all they could sea.$14",
   "Aliyah.Fall.1": "Fall has my favorite festivals. I love the barbecue at the fair, and Spirit's Eve...$1",
   "Aliyah.Fall.2": "Storms notwithstanding, sweater weather is my favorite weather.$8#$e#Not that I dislike my warm weather wardrobe, but I have a fondness for this old turtle-neck...$1",
   "Aliyah.Fall.3": "When I was growing up, fall was a time for big roasts on open flames, communal meals...$1#$e#I would be lying to say I did not sometimes miss it.$12",
   "Aliyah.Fall.4": "I know that autumn is a busy time of year for you, {{Honorific}} {{Surname}}...$13#$b#I appreciate your company, but do not 'fall' behind on your work, now.$14",
   "Aliyah.Fall.5": "Soon it will be winter, and food and warmth will be scarce beyond the walls of our homes.$11#$e#But not yet. No, not yet.$12",
+  "Aliyah.Fall.6": "You would not be-leaf how arbor-ent the leaf litter is being. Spreach keeps jumping into every pile just as it has been raked.$15",
   "Aliyah.Winter.1": "I saw some of the younger people having a snowball fight earlier. One of them got me.$8#$e#I think I surprised them by returning fire while they were mid-apology.$13",
   "Aliyah.Winter.2": "It is the perfect time of year for a hot drink. Here, stay warm.[{{Tea}}]$1",
   "Aliyah.Winter.3": "I find winter stressful, if I am to be honest. While I am not affected by the seasons changing, many of my patients are.$12",
   "Aliyah.Winter.4": "How lonely to be a snowman, do you not think?$1#$e#You would have 'snow body' to spend time with.$3",
   "Aliyah.Winter.5": "It is so quiet this time of year. Like the world is napping.$1#$e#I never get to sleep in, but it is a nice thought all the same.$15",
+  "Aliyah.Winter.6": "Are you cold? Please allow me to winter-vene.... [{{Coffee}}]$22",
+  // BOOK CLUB
+  "Aliyah.BookClub.1": "The book we're reading for club right now is Sci-Fi, which I will confess, is not typically my first choice.$15#$b#I thought it was very enjoyable, though - there was a stronger emotional throughline than I was expecting. I am looking forward to hearing what everyone else thought.$1",
+  "Aliyah.BookClub.2": "I got to pick what we read for book club this time, so I chose something I had yet to read from my favorite author, Perry Thatchett.$21#$b#I enjoy his comedic timing, and how he couches real insight in a costume of fantasy tropes. I hope everyone else received it well...$15",
+  "Aliyah.BookClub.3": "We are reading something so dreadfully serious at book club at the moment, and I am embarrassed to admit, I am having trouble getting through it.$17#$b#It is beautifully written, and poignant and thought-provoking, but I prefer a touch of levity to soften dark subject matter.$9",
+  "Aliyah.BookClub.4": "Someone chose the sappiest, most saccharine romance I have ever read in my life for the book club, and oh my goodness, {{Honorific}} {{Surname}},$18#$b#It is so flowery, but it is so funny. Sky above and starlight, I cannot read it in public without giggling.$4",
+  "Aliyah.BookClub.5": "We are doing something a little bit different at book club currently, and the concept has just been tickling me since it was proposed. May I share?$$22#$e#We are reading the translation of a novel that was originally published in a different language - all except Beatrice, who is reading the original.$20#$b#I am very excited to compare how the translation stands up against its original incarnation.$1",
+  "Aliyah.BookClub.6": "We are reading one of the old classics in book club, right now! I have not read 'A Fold In Time' in ages, pardon the pun.$22#$b#I thought it was so boring when I was forced to read it in school, but I am having a wonderful time revisiting it again. Maybe I can suggest more of these.$21",
+  "Aliyah.BookClub.7": "We are reading an amateur screen-play in book club right now. It is a fascinating experience.$1#$b#It is definitely not something I would have sought out myself, but the unique format scratches an itch in a way I cannot quite describe. I have found it to be a fun 'theatre of the mind' exercise.$22",
   // GIFTS GIVEN
   "Aliyah.Gift.1": "",
   "Aliyah.Gift.2": "",
@@ -317,6 +328,20 @@
   "Aliyah.GiftReaction.Neutral": "Thank you for thinking of me.$21",
   // GIFT REACTIONS: SPECIFIC ITEMS
   "Aliyah.GiftReaction.RabbitFoot": "Oh, thank you... But, where is the rest of the rabbit?$15#$b#Never mind, thank you for thinking of me.$18",
+  "Aliyah.GiftReaction.RabbitMeat": "!!$27#$b#Really? Oh, {{Honorific}} {{Surname}} - THANK you! Truly!$22",
+  "Aliyah.GiftReaction.GotoranCoffee": "Oh... I am, so very touched to see that you're keeping this tradition alive with me. Thank you.$1",
+  "Aliyah.GiftReaction.DandelionTea": "Oh, I love dandelion tea. They were my favorite flowers growing up, and my grandmother would brew it whenever I was ill...$21",
+  "Aliyah.GiftReaction.Coffees": "Ah! This is not how I make it, but I do love coffee. Thank you, {{Honorific}} {{Surname}}.$1",
+  "Aliyah.GiftReaction.Cheese": "It is my humble opinion that the right cheese will make any dish better. This is going in the pantry straight away...$20",
+  "Aliyah.GiftReaction.Sashimi": "I like fish in general, but the fact that you took the time to prepare it for me... thank you, {{Honorific}} {{Surname}}.$1",
+  // Gift Reactions: Birthdays
+  "Aliyah.Birthday.BunnyMeat": "Oh, {{Honorific}} {{Surname}}, this is all far too kind, thank you! I have such a fondness for rabbit.. you must let me cook for you sometime. I insist.$4",
+  "Aliyah.Birthday.BunnyFoot": "Awww, you got me a lucky charm for my birthday? Thank you, this is very cute.$21",
+  "Aliyah.Birthday.GotoranCoffee": "...Oh, farmer, I'm touched. Keeping this recipe alive is a labor of love, and so... Truly, this means more to me than I can say, thank you.$18",
+  "Aliyah.Birthday.DandelionTea": "I really do love dandelion tea. This is a lovely birthday gift, thank you {{Honorific}} {{Surname}}.$22",
+  "Aliyah.Birthday.StardropTea": "This is truly wonderful, farmer. I do not know why, but I want to say it tastes familiar...? An excellent gift. Truly. $1",
+  "Aliyah.Birthday.Positive": "It is kind of you to get me something for my birthday, thank you {{Honorific}} {{Surname}}.",
+  "Aliyah.Birthday.Negative": "....Mm. Well. The thought counts for something, I suppose.$9",
   // GIFT REACTIONS: GEMS, MINERALS, ARTIFACTS
   "Aliyah.GiftReaction.GemCategory": "",
   "Aliyah.GiftReaction.MineralCategory": "",
@@ -329,7 +354,7 @@
   "Aliyah.GiftReaction.EggCategory": "",
   "Aliyah.GiftReaction.MilkCategory": "",
   "Aliyah.GiftReaction.FishCategory": "",
-  "Aliyah.GiftReaction.AlcoholCategory": "What do you expect me to do with this, precisely?$19",
+  "Aliyah.GiftReaction.AlcoholCategory": "What do you expect me to do with this, precisely? I do not keep alcohol at home.$19",
   // GIFT REACTIONS: ARTISNAL GOODS
   "Aliyah.GiftReaction.ArtisanCategory": "",
   // GIFT REACTIONS: BOOKS 
@@ -451,8 +476,7 @@ ALIYAH STRINGS
   "Strings.Aliyah.Signs.2": "Visitors Welcome. Mind the Dog.",
   "Strings.Aliyah.AtticDoor": "The attic door is locked...",
   "Strings.Aliyah.SandWarmer": "It's a commercial sand heater, for Gotoran coffee.",
-  "Strings.Aliyah.WeddingPhoto": "It's a photograph of a younger Aliyah in a wedding gown, next to a warm-faced Gotoran man in traditional clothes.#In the photo, she's smiling...",
-  "Strings.Aliyah.Graveside": "It's a grave. An Epitaph reads:#'Pietre Marcelli, gone but not forgotten, your memory lives on in the laughter of your loved ones.'",
+  "Strings.Aliyah.Graveside": "It's a grave. An Epitaph reads:#'Atzar Toirneach, gone but not forgotten, your memory lives on in the laughter of your loved ones.'",
   "Strings.Aliyah.SpareRoom": "This room doesn't seem to see much use...",
   // RADIO
   "Strings.Aliyah.Radio.1": "When you turn the radio on, you catch it in the middle of a song:# 'And there's that call, louder than before...#And it's telling me I've found what I'm lookin' for...'",
@@ -654,7 +678,7 @@ ______      _     _ _
   "Dahlia.LowHeart.15": "What are your opinions on videos game? Sam just explained them to me, and I really want to try one now...!$3",
   "Dahlia.LowHeart.16": "I wish Morris had different priorities. The choices he's made... I can forgive a lot, but not active malice.$16",
   "Dahlia.LowHeart.17": "Pierre's not so bad. He worries a lot about money - but raising a child takes a lot. Especially in a small, poor town.$7#$b#When you're not around, {{DahlPetName}}, he'll talk about how he can breathe easier now, knowing Abigail will be okay thanks to your farm.$6",
-  "Dahlia.LowHeart.18": "",
+  "Dahlia.LowHeart.18": "Don't you think Emily is pretty? I love bright colors, and her hair's the brightest I've ever seen!$6",
   "Dahlia.LowHeart.19": "",
   "Dahlia.LowHeart.20": "",
   "Dahlia.LowHeart.21": "",
@@ -690,7 +714,7 @@ ______      _     _ _
   "Dahlia.HighHeart.10": "You don't think less of me now that I've decided to linger, do you {{DahlPetName}}? You don't really seem the type, but...$19#$b#It seems so silly to leave, now. I feel like something's taken root here, in the Valley. I want to see what it is.$7",
   "Dahlia.HighHeart.11": "I still say this town needs a Community Theatre. Especially since I'm staying! Or a talent night, or something - I should bother the Mayor.$1",
   "Dahlia.HighHeart.12": "I've always loved stories, as far back as I can remember - and I can remember a lot!$6#$e#Fairies retell the stories we've heard over and over, but I've only truly heard new ones when I was living with humans. Like yours! It's why I like you so much.$7",
-  "Dahlia.HighHeart.13": "Evelyn's been teaching me about gardening. Leah, too. I'm helping them both out where I can - Aideen, too.$6#$e#I don't do it for money. It's just for fun. And real flowers are nicer than my silk ones at home, anyway.$1",
+  "Dahlia.HighHeart.13": "Evelyn's been teaching me about gardening. And Leah! I'm helping them both out where I can - Aideen, too.$6#$e#I don't do it for money. It's just for fun. And real flowers are nicer than my silk ones at home, anyway.$1",
   "Dahlia.HighHeart.14": "",
   "Dahlia.HighHeart.15": "",
   "Dahlia.HighHeart.16": "",
@@ -853,7 +877,13 @@ DAHLIA FESTIVALS
 DAHLIA STRINGS 
 */
   // MAP STRINGS
-
+  "Strings.Dahlia.Locations.1": "60th Floor",
+  "Strings.Dahlia.Locations.2": "The Frozen Grove",
+  "Strings.Dahlia.Locations.Flowers": "Silk flowers! Kept in a careful, deliberate arrangement.",
+  "Strings.Dahlia.Locations.WolfPlush": "A well-loved plush wolf toy. Its fur seems to be regularly brushed?",
+  "Strings.Dahlia.Locations.Sign": "_ Somewhere... _#]...Elsewhere. ]",
+  "Strings.Dahlia.Locations.Curios": "...Where did she get all this stuff?|||It's really quite a collection.|||Bits, books, and baubles.",
+  "Strings.Dahlia.Locations.Clothes": "The drawers have been stuffed with brightly-colored clothes, shoved haphazardly inside.",
   // RADIO
   "Strings.Dahlia.Radio.1": "Inexplicably, music resonates from the crystal:# '...Dress me in red, and throw your roses and I'll wrangle the beast with words,'#'It's a graceless dance of epithets we learn to make someone hurt....'",
   "Strings.Dahlia.Radio.2": "Inexplicably, music resonates from the crystal:# '...Every word I say is kindling, but the smoke clears when you're 'round...'#'Won't you stay with me, my darling, when my walls start burning down, down, down....?'",
@@ -869,7 +899,8 @@ DAHLIA CUSTOM FIXED
   /*
 DAHLIA MAIL                        
 */
-  "Mail.Dahlia.Letter1": "",
+  "Mail.Dahlia.MineDelveTitle": "Heading Underground",
+  "Mail.Dahlia.Letter1": "Hey, {{DahlPetName}}... ^By the time you see this, I'll probably be gone. I've decided it would be best if I were to disappear for a bit, since all I seem to do is make trouble for you.^I'm going into the mountain caves to do some of my own research about the dangers down below. Thank you for all of your help with everything, @, and please take care.^ - Dahlia",
   /*
 DAHLIA QUESTS
 */
@@ -955,11 +986,11 @@ DAHLIA EVENTS
 
 // MEEPimals
 // Spreach (Translation notes in comments.)
-"Spreach.Talk.1": "Bark!$1", // Barking, happily.
-"Spreach.Talk.2": "*Pant, pant*$0", // Panting, out of breath, neutral.
-"Spreach.Talk.3": "(Whiiiiine....)$2", // A sad, drawn-out whine.
-"Spreach.Talk.4": "Browf?$3", // A curious, muffled dog noise - he has a ball in his mouth.
-"Spreach.Talk.5": "Aph! Ap!$4", // Excited yips, he is being pet.
-"Spreach.Talk.6": "Bouf!!" //A loud, deep bark, neutral expression.
+"Spreach.Talk.1": "Bark!$1#$b#(Spreach's tail wags at the sight of you.)$1", // Barking, happily.
+"Spreach.Talk.2": "*Pant, pant*$0#$b#(It seems Spreach is being lazy today.)", // Panting, out of breath, neutral.
+"Spreach.Talk.3": "(Whiiiiine....)$2#$b#(Spreach paws forlornly at the air, seeking... something.)$2", // A sad, drawn-out whine.
+"Spreach.Talk.4": "Browf?$3#$b#(It seems he wants to play!)$3", // A curious, muffled dog noise - he has a ball in his mouth.
+"Spreach.Talk.5": "Aph! Ap!$4#$b#(Spreach's tail thuds against the ground as he is pet.)$4", // Excited yips, he is being pet.
+"Spreach.Talk.6": "Bouf!!#$b#(Spreach tippy-taps in place, having been taught not to jump.)" //A loud, deep bark, neutral expression.
 
 }

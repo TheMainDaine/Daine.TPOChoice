@@ -5,7 +5,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "{{ModId}}_Aliyah": "{{i18n:Aliyah.GiftReaction.Love{{GeneralDialogueTokens}}}}/{{Tea}} {{Coffee}} 18 253 395 227 424 426/{{i18n:Aliyah.GiftReaction.Like{{GeneralDialogueTokens}}}}/22 815 446 433 -14 -6/{{i18n:Aliyah.GiftReaction.Dislike{{GeneralDialogueTokens}}}}/-21 -19 -22/{{i18n:Aliyah.GiftReaction.Hate{{GeneralDialogueTokens}}}}/alcohol_item ButterflyPowder 873 -20/{{i18n:Aliyah.GiftReaction.Neutral{{GeneralDialogueTokens}}}}/-4 -2 -5/"
+        "{{ModId}}_Aliyah": "{{i18n:Aliyah.GiftReaction.Love{{GeneralDialogueTokens}}}}/{{Tea}} {{Coffee}} 643 18 253 395 227 424 426/{{i18n:Aliyah.GiftReaction.Like{{GeneralDialogueTokens}}}}/22 815 446 433 -14 -6/{{i18n:Aliyah.GiftReaction.Dislike{{GeneralDialogueTokens}}}}/-21 -19 -22/{{i18n:Aliyah.GiftReaction.Hate{{GeneralDialogueTokens}}}}/alcohol_item ButterflyPowder 873 -20/{{i18n:Aliyah.GiftReaction.Neutral{{GeneralDialogueTokens}}}}/-4 -2 -5/"
       }
       }
     ]

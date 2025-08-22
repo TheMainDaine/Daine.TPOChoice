@@ -8,6 +8,7 @@
                 "{{Aliyah}}_nap": "16/16/16//offset 0 -8/laying_down",
                 "{{Aliyah}}_sweep": "17/17 18 19 18/17",
                 "{{Aliyah}}_study": "20/21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 22 22 22 22 22 21/20",
+                "{{Aliyah}}_office": "8/8/8//offset -20 8/laying_down",
                 "{{Aliyah}}_sit_down": "28/28/28//offset 0 -64/laying_down",
                 "{{Aliyah}}_sit_right": "29/29/29//offset 56 8/laying_down",
                 "{{Aliyah}}_sit_up": "30/30/30//offset 0 -64/laying_down",

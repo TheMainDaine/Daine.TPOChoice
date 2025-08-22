@@ -13,7 +13,7 @@
         "cc_Begin": "{{i18n:Aliyah.CCBegin{{GeneralDialogueTokens}}}}",
         "cc_Bus": "{{i18n:Aliyah.CCBus{{GeneralDialogueTokens}}}}",
         "cc_Minecart": "{{i18n:Aliyah.CCMinecart{{GeneralDialogueTokens}}}}",
-        "cc_Complete": "{{i18n:Aliyah.CCComplet{{GeneralDialogueTokens}}}}",
+        "cc_Complete": "{{i18n:Aliyah.CCComplete{{GeneralDialogueTokens}}}}",
         "movieTheater": "{{i18n:Aliyah.MovieTheater{{GeneralDialogueTokens}}}}",
         //Gift Tastes
         "AcceptGift_(O)StardropTea": "{{i18n:Aliyah.GiftReaction.StardropTea{{GeneralDialogueTokens}}}}",
@@ -22,8 +22,29 @@
         "AcceptGift_Neutral": "{{i18n:Aliyah.GiftReaction.Neutral{{GeneralDialogueTokens}}}}",
         "AcceptGift_Dislike": "{{i18n:Aliyah.GiftReaction.Dislike{{GeneralDialogueTokens}}}}",
         "AcceptGift_Hate": "{{i18n:Aliyah.GiftReaction.Hate{{GeneralDialogueTokens}}}}",
+        // Birthday Gift Tastes
+        "AcceptBirthdayGift_(O)StardropTea": "{{i18n:Aliyah.Birthday.StardropTea{{GeneralDialogueTokens}}}}",
+        "AcceptBirthdayGift_(O)643": "{{i18n:Aliyah.Birthday.BunnyMeat{{GeneralDialogueTokens}}}}",
+        "AcceptBirthdayGift_(O)446": "{{i18n:Aliyah.Birthday.BunnyFoot{{GeneralDialogueTokens}}}}",
+        "AcceptBirthdayGift_(O)Daine.TPOChoice_GotoranCoffee": "{{i18n:Aliyah.Birthday.GotoranCoffee{{GeneralDialogueTokens}}}}",
+        "AcceptBirthdayGift_(O)Daine.TPOChoice_DandelionTea": "{{i18n:Aliyah.Birthday.DandelionTea{{GeneralDialogueTokens}}}}",
+        "AcceptBirthdayGift_Positive": "{{i18n:Aliyah.Birthday.Positive{{GeneralDialogueTokens}}}}",
+        "AcceptBirthdayGift_Negative": "{{i18n:Aliyah.Birthday.Negative{{GeneralDialogueTokens}}}}",
         //Specific Gifts
         "AcceptGift_(O)446": "{{i18n:Aliyah.GiftReaction.RabbitFoot{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)424": "{{i18n:Aliyah.GiftReaction.Cheese{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)426": "{{i18n:Aliyah.GiftReaction.Cheese{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)227": "{{i18n:Aliyah.GiftReaction.Sashimi{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)253": "{{i18n:Aliyah.GiftReaction.Coffees{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)395": "{{i18n:Aliyah.GiftReaction.Coffees{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)MadDog.HashtagBearFam_Blueberry_Flavored_Coffee": "{{i18n:Aliyah.GiftReaction.Coffees{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)MadDog.HashtagBearFam_Caramel_Flavored_Coffee": "{{i18n:Aliyah.GiftReaction.Coffees{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)MadDog.HashtagBearFam_Chocolate_Flavored_Coffee": "{{i18n:Aliyah.GiftReaction.Coffees{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)MadDog.HashtagBearFam_Raspberry_Flavored_Coffee": "{{i18n:Aliyah.GiftReaction.Coffees{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)643": "{{i18n:Aliyah.GiftReaction.RabbitMeat{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)Daine.TPOChoice_GotoranCoffee": "{{i18n:Aliyah.GiftReaction.GotoranCoffee{{GeneralDialogueTokens}}}}",
+        "AcceptGift_(O)Daine.TPOChoice_DandelionTea": "{{i18n:Aliyah.GiftReaction.DandelionTea{{GeneralDialogueTokens}}}}",
+
         //Gift Rejections
         "RejectItem_alcohol_item": "{{i18n:Aliyah.GiftReaction.AlcoholCategory{{GeneralDialogueTokens}}}}",
         "RejectItem_(O)458":"{{i18n:Aliyah.GiftRejection.Bouquet{{GeneralDialogueTokens}}}}",
@@ -39,27 +60,27 @@
         "Daine.TPOChoice_Aliyah_Yard_9_26": "{{i18n:Aliyah.Location.Graveside}}",
 
         //Pre-Festival Dialogue
-        "spring_12": "{{i18n:Aliyah.EggFestival{{GeneralDialogueTokens}}}}",
-        "spring_23": "{{i18n:Aliyah.FlowerDance{{GeneralDialogueTokens}}}}",
-        "summer_10": "{{i18n:Aliyah.Luau{{GeneralDialogueTokens}}}}",
-        "summer_27": "{{i18n:Aliyah.MoonlightJelly{{GeneralDialogueTokens}}}}",
-        "fall_15": "{{i18n:Aliyah.SDVFair{{GeneralDialogueTokens}}}}",
-        "fall_26": "{{i18n:Aliyah.SpiritsEve{{GeneralDialogueTokens}}}}",
-        "winter_7": "{{i18n:Aliyah.IceFestival{{GeneralDialogueTokens}}}}",
-        "winter_15": "{{i18n:Aliyah.NightMarket{{GeneralDialogueTokens}}}}",
-        "winter_24": "{{i18n:Aliyah.WinterStar{{GeneralDialogueTokens}}}}",
+        "spring_12_*": "{{i18n:Aliyah.EggFestival{{GeneralDialogueTokens}}}}",
+        "spring_23_*": "{{i18n:Aliyah.FlowerDance{{GeneralDialogueTokens}}}}",
+        "summer_10_*": "{{i18n:Aliyah.Luau{{GeneralDialogueTokens}}}}",
+        "summer_27_*": "{{i18n:Aliyah.MoonlightJelly{{GeneralDialogueTokens}}}}",
+        "fall_15_*": "{{i18n:Aliyah.SDVFair{{GeneralDialogueTokens}}}}",
+        "fall_26_*": "{{i18n:Aliyah.SpiritsEve{{GeneralDialogueTokens}}}}",
+        "winter_7_*": "{{i18n:Aliyah.IceFestival{{GeneralDialogueTokens}}}}",
+        "winter_15_*": "{{i18n:Aliyah.NightMarket{{GeneralDialogueTokens}}}}",
+        "winter_24_*": "{{i18n:Aliyah.WinterStar{{GeneralDialogueTokens}}}}",
         //End Of Season Dialogue
-        "spring_28": "{{i18n:Aliyah.SpringEnd{{GeneralDialogueTokens}}}}",
-        "summer_28": "{{i18n:Aliyah.SummerEnd{{GeneralDialogueTokens}}}}",
-        "fall_28": "{{i18n:Aliyah.FallEnd{{GeneralDialogueTokens}}}}",
-        "winter_28": "{{i18n:Aliyah.WinterEnd{{GeneralDialogueTokens}}}}",
+        "spring_28_*": "{{i18n:Aliyah.SpringEnd{{GeneralDialogueTokens}}}}",
+        "summer_28_*": "{{i18n:Aliyah.SummerEnd{{GeneralDialogueTokens}}}}",
+        "fall_28_*": "{{i18n:Aliyah.FallEnd{{GeneralDialogueTokens}}}}",
+        "winter_28_*": "{{i18n:Aliyah.WinterEnd{{GeneralDialogueTokens}}}}",
         // Green Rain
         "GreenRain": "{{i18n:Aliyah.GreenRain{{GeneralDialogueTokens}}}}",
         "GreenRainFinished": "{{i18n:Aliyah.GreenRainFinished{{GeneralDialogueTokens}}}}",
         "GreenRain_2": "{{i18n:Aliyah.GreenRain2{{GeneralDialogueTokens}}}}",
         // Other Specific Dates
-        "summer_7": "{{i18n:Aliyah.Summer7{{GeneralDialogueTokens}}}}",
-        "fall_27": "{{i18n:Aliyah.Fall27{{GeneralDialogueTokens}}}}"
+        "summer_7_*": "{{i18n:Aliyah.Summer7{{GeneralDialogueTokens}}}}",
+        "fall_27_*": "{{i18n:Aliyah.Fall27{{GeneralDialogueTokens}}}}"
       }
     },
     //Dialogue Pools
@@ -68,7 +89,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/{{Aliyah}}",
       "Entries": {
-        "{{WeekDay}}": "{{i18n:Aliyah.LowHeart.{{Random:{{Range: 1, 17}}}}{{GeneralDialogueTokens}}}}"
+        "{{WeekDay}}": "{{i18n:Aliyah.LowHeart.{{Random:{{Range: 1,22}}}}{{GeneralDialogueTokens}}}}"
       }
     },
     {
@@ -76,7 +97,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/{{Aliyah}}",
       "Entries": {
-        "{{WeekDay}}": "{{i18n:Aliyah.HighHeart.{{Random:{{Range: 1, 7}}}}{{GeneralDialogueTokens}}}}"
+        "{{WeekDay}}": "{{i18n:Aliyah.HighHeart.{{Random:{{Range: 1, 14}}}}{{GeneralDialogueTokens}}}}"
       },
       "When": {
         "HasSeenEvent": "Daine.Aliyah.6H"
@@ -87,11 +108,62 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/{{Aliyah}}",
       "Entries": {
-        "{{WeekDay}}": "{{i18n:Aliyah.{{Season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}{{GeneralDialogueTokens}}}}#$action AddMail Current Daine.Aliyah_OverrideSeenToday received"
+        "{{WeekDay}}": "{{i18n:Aliyah.{{Season}}.{{Random:{{Range: 1, 6}}|key={{Time}}}}{{GeneralDialogueTokens}}}}#$action AddMail Current Daine.Aliyah_OverrideSeenToday received"
       },
       "When": {
-        "Random: {{range: 1, 10}} |key=CSO": 1,
+        "Random: {{range: 1, 10}} |key=SSN": 1,
         "HasFlag |contains=Daine.Aliyah_OverrideSeenToday": false
+      }
+    },
+        {
+      "LogName": "Aliyah Book Club Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{Aliyah}}",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:Aliyah.BookClub.{{Random:{{Range: 1, 7}}}}{{GeneralDialogueTokens}}}}#$action AddMail Current Daine.Aliyah_OverrideSeenToday received"
+      },
+      "When": {
+        "Random: {{range: 1, 10}} |key=BKC": 1,
+        "HasFlag |contains=Daine.Aliyah_OverrideSeenToday": false
+      }
+    },
+    {
+      "LogName": "Aliyah Nieblings Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{Aliyah}}",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:Aliyah.Nieblings.{{Random:{{Range: 1, 15}}}}{{GeneralDialogueTokens}}}}#$action AddMail Current Daine.Aliyah_OverrideSeenToday received"
+      },
+      "When": {
+        "Random: {{range: 1, 10}} |key=MRN": 1,
+        "HasFlag |contains=Daine.Aliyah_OverrideSeenToday": false,
+        "HasSeenEvent": "Daine.MikeRae.0H"
+      }
+    },
+    {
+      "LogName": "Aliyah Iris Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{Aliyah}}",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:Aliyah.Iris.{{Random:{{Range: 1, 7}}}}{{GeneralDialogueTokens}}}}#$action AddMail Current Daine.Aliyah_OverrideSeenToday received"
+      },
+      "When": {
+        "Random: {{range: 1, 10}} |key=IRS": 1,
+        "HasFlag |contains=Daine.Aliyah_OverrideSeenToday": false,
+        "HasSeenEvent": "Daine.Dahlia.0H"
+      }
+    },
+    {
+      "LogName": "Aliyah Dahlia Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{Aliyah}}",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:Aliyah.Dahlia.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}}#$action AddMail Current Daine.Aliyah_OverrideSeenToday received"
+      },
+      "When": {
+        "Random: {{range: 1, 5}} |key=DHL": 1,
+        "HasFlag |contains=Daine.Aliyah_OverrideSeenToday": false,
+        "HasSeenEvent": "Daine.Dahlia.0H"
       }
     }
   ]

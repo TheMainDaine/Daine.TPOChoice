@@ -13,7 +13,7 @@
         "Action": "EditData",
         "Target": "Characters/schedules/{{Dahlia}}",
         "Entries": {
-          "spring": "0 EastScarp_LoresCove 46 75 3/610 Town 33 75 0/1200 EastScarp_Village 67 75 2/1700 Mountain 54 14 2/2100 EastScarp_DeepMountains 23 26 2/0100 EastScarp_LoresCove 47 75 1" },
+          "spring": "0 EastScarp_LoresCove 46 75 3/610 Town 33 75 0/1200 EastScarp_Village 67 75 2/1700 Mountain 55 32 0/2100 EastScarp_DeepMountains 23 26 2/0100 EastScarp_LoresCove 47 75 1" },
           "When": { "HasSeenEvent |contains=Daine.Dahlia.0H": true }
         }
       ]

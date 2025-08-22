@@ -1,9 +1,70 @@
 {
     "Changes": [
                 {
+            "LogName": "Spreach",
             "Action": "Load",
             "Target": "Characters/{{Spreach}}, Portraits/{{Spreach}}",
             "FromFile": "assets/TemporaryActors/{{TargetPathOnly}}/Spreach.png"
+        },
+        {
+            "LogName": "Ghost",
+            "Action": "Load",
+            "Target": "Characters/{{Ghost}}",
+            "FromFile": "assets/TemporaryActors/Characters/z_CarbonGhost.png"
+        },
+        {
+            "LogName": "Birch Wolf",
+            "Action": "Load",
+            "Target": "Characters/{{BirchWolf}}, Portraits/{{BirchWolf}}",
+            "FromFile": "assets/TemporaryActors/{{TargetPathOnly}}/BirchWolf.png"
+        },
+        {
+            "LogName": "DarkWolf",
+            "Action": "Load",
+            "Target": "Characters/{{DarkWolf}}, Portraits/{{DarkWolf}}",
+            "FromFile": "assets/TemporaryActors/{{TargetPathOnly}}/DarkWolf.png"
+        },
+        {
+            "LogName": "Junimo Wolf",
+            "Action": "Load",
+            "Target": "Characters/{{JuniWolf}}, Portraits/{{JuniWolf}}",
+            "FromFile": "assets/TemporaryActors/{{TargetPathOnly}}/JuniWolf.png"
+        },
+        {
+            "LogName": "Leah Wolf",
+            "Action": "Load",
+            "Target": "Characters/{{LeahWolf}}, Portraits/{{LeahWolf}}",
+            "FromFile": "assets/TemporaryActors/{{TargetPathOnly}}/LeahWolf.png"
+        },
+        {
+            "LogName": "Mahogany Wolf",
+            "Action": "Load",
+            "Target": "Characters/{{MahogaWolf}}, Portraits/{{MahogaWolf}}",
+            "FromFile": "assets/TemporaryActors/{{TargetPathOnly}}/MahogaWolf.png"
+        },
+        {
+            "LogName": "Oak Wolf",
+            "Action": "Load",
+            "Target": "Characters/{{OakWolf}}, Portraits/{{OakWolf}}",
+            "FromFile": "assets/TemporaryActors/{{TargetPathOnly}}/OakWolf.png"
+        },
+        {
+            "LogName": "Walnut Wolf",
+            "Action": "Load",
+            "Target": "Characters/{{WalnutWolf}}, Portraits/{{WalnutWolf}}",
+            "FromFile": "assets/TemporaryActors/{{TargetPathOnly}}/WalnutWolf.png"
+        },
+        {
+            "LogName": "White Wolf",
+            "Action": "Load",
+            "Target": "Characters/{{WhiteWolf}}, Portraits/{{WhiteWolf}}",
+            "FromFile": "assets/TemporaryActors/{{TargetPathOnly}}/WhiteWolf.png"
+        },
+        {
+            "LogName": "Wizard Wolf",
+            "Action": "Load",
+            "Target": "Characters/{{WizWolf}}, Portraits/{{WizWolf}}",
+            "FromFile": "assets/TemporaryActors/{{TargetPathOnly}}/WizWolf.png"
         }
     ]
 }

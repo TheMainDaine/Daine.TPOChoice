@@ -4,13 +4,13 @@
     {
       "LogName": "Blank Load",
       "Action": "Load",
-      "Target": "Characters/Dialogue/Daine.TPOChoice_Aliyah, Characters/schedules/Daine.TPOChoice_Aliyah, Characters/Dialogue/Daine.TPOChoice_Dahlia, Characters/schedules/Daine.TPOChoice_Dahlia",
+      "Target": "Characters/Dialogue/Daine.TPOChoice_Aliyah, Characters/schedules/Daine.TPOChoice_Aliyah, Characters/Dialogue/Daine.TPOChoice_Dahlia, Characters/schedules/Daine.TPOChoice_Dahlia, Data/Events/{{Aliyah}}_Yard, Data/Events/{{Aliyah}}_House, Data/Events/{{Dahlia}}_Mine, Data/Events/{{Dahlia}}_Grove",
       "FromFile": "Assets/blank.json"
     },
 {
     "LogName": "Data Folder",
     "Action": "Include",
-    "FromFile": "Data/assetloads.json, Data/TemporaryActors.json, Data/MEEPimals.json, Data/Locations.json, Data/Aliyah/disposition.json, Data/Dahlia/disposition.json, Data/Aliyah/dialogue.json, Data/Dahlia/dialogue.json, Data/Aliyah/schedule.json, Data/Dahlia/schedule.json, Data/Aliyah/gifttastes.json, Data/Dahlia/gifttastes.json, Data/Objects.json, Data/Aliyah/events.json, Data/Dahlia/events.json, Data/animations.json"
+    "FromFile": "Data/assetloads.json, Data/TemporaryActors.json, Data/MEEPimals.json, Data/Locations.json, Data/Aliyah/disposition.json, Data/Dahlia/disposition.json, Data/Aliyah/dialogue.json, Data/Dahlia/dialogue.json, Data/Aliyah/schedule.json, Data/Dahlia/schedule.json, Data/Aliyah/gifttastes.json, Data/Dahlia/gifttastes.json, Data/Objects.json, Data/Aliyah/events.json, Data/Dahlia/events.json, Data/animations.json, Data/Letters.json, Data/LocationContexts.json"
 },
   //Dialogue Flag Remover
 {
@@ -85,5 +85,15 @@
         {"Name": "Iris", "Value": "Daine.TPOChoice_Iris"},
         {"Name": "Spreach", "Value": "Daine.TPOChoice_Spreach"},
         {"Name": "Coffee", "Value": "Daine.TPOChoice_GotoranCoffee"},
-        {"Name": "Tea", "Value": "Daine.TPOChoice_DandelionTea"}]
+        {"Name": "Tea", "Value": "Daine.TPOChoice_DandelionTea"},
+        {"Name": "Ghost", "Value": "Daine.TPOChoice_Ghost"},
+        {"Name": "BirchWolf", "Value": "Daine.TPOChoice_BirchWolf"},
+        {"Name": "DarkWolf", "Value": "Daine.TPOChoice_DarkWolf"},
+        {"Name": "JuniWolf", "Value": "Daine.TPOChoice_JuniWolf"},
+        {"Name": "LeahWolf", "Value": "Daine.TPOChoice_LeahWolf"},
+        {"Name": "MahogaWolf", "Value": "Daine.TPOChoice_MahogaWolf"},
+        {"Name": "OakWolf", "Value": "Daine.TPOChoice_OakWolf"},
+        {"Name": "WalnutWolf", "Value": "Daine.TPOChoice_WalnutWolf"},
+        {"Name": "WhiteWolf", "Value": "Daine.TPOChoice_WhiteWolf"},
+        {"Name": "WizWolf", "Value": "Daine.TPOChoice_WizWolf"}]
 }

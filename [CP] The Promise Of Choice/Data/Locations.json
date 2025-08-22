@@ -1,6 +1,6 @@
 {
     "Changes": [
-       {
+        {
             "LogName": "Ali Map Patch",
             "Action": "EditMap",
             "Target": "Maps/EastScarp_DeepMountains",
@@ -11,8 +11,8 @@
             "Width": 7,
             "Height": 5
             }
-         },
-                {
+        },
+        {
             "LogName": "Dahl Map Patch",
             "Action": "EditMap",
             "Target": "Maps/EastScarp_LoresCove",
@@ -23,8 +23,18 @@
             "Width": 19,
             "Height": 13
             }
-         },
+        },
         {
+            "LogName": "Open Grove",
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_LoresCove",
+            "When": { "HasSeenEvent": "Daine.Dahlia.6H" },
+            "FromFile": "Assets/Maps/TPOC_DahlPatch2.tmx",
+            "ToArea": { "X": 44, "Y": 73, "Width": 5, "Height": 4 },
+            "PatchMode": "ReplaceByLayer"
+        },
+        {
+        
             "LogName": "Aliyah Yard",
             "Action": "Load",
             "Target": "Maps/{{Aliyah}}_Yard",
@@ -43,6 +53,18 @@
             "FromFile": "Assets/Maps/TPOC_WaitingRoom.tmx"
         },
         {
+            "LogName": "False Mine Map",
+            "Action": "Load",
+            "Target": "Maps/{{Dahlia}}_Mine",
+            "FromFile": "Assets/Maps/TPOC_Mine.tmx"
+        },
+        {
+            "LogName": "Dahlia's Grove",
+            "Action": "Load",
+            "Target": "Maps/{{Dahlia}}_Grove",
+            "FromFile": "Assets/Maps/TPOC_DahliaGrove.tmx"
+        },
+        {
             "LogName": "Location Data",
             "Action": "EditData",
             "Target": "Data/Locations",
@@ -50,21 +72,27 @@
                 "{{Aliyah}}_Yard": {
                     "DisplayName": "{{i18n:Strings.Aliyah.Locations.1}}",
                     "DefaultArrivalTile": { "X": 12, "Y": 22 },
-                    "CreateOnLoad": { "MapPath": "Maps/{{Aliyah}}_Yard" }
-                
+                    "CreateOnLoad": { "MapPath": "Maps/{{Aliyah}}_Yard" }                
                 },
                 "{{Aliyah}}_House": {
                     "DisplayName": "{{i18n:Strings.Aliyah.Locations.2}}",
                     "DefaultArrivalTile": { "X": 5, "Y": 30 },
-                    "CreateOnLoad": { "MapPath": "Maps/{{Aliyah}}_House" }   
-                    
+                    "CreateOnLoad": { "MapPath": "Maps/{{Aliyah}}_House" }                       
                 },
                 "{{ModID}}_WaitingRoom": {
                     "DisplayName": "The Backroom",
                     "DefaultArrivalTile": { "X": 7, "Y": 6 },
                     "CreateOnLoad": { "MapPath": "Maps/{{ModID}}_WaitingRoom"}
-
-                    // Dahlia's Grove will also be added, but it isn't accessible until after her 6H event so I haven't bothered with finishing the interior yet.
+                },
+                    "{{Dahlia}}_Mine": {
+                    "DisplayName": "{{i18n:Strings.Dahlia.Locations.1}}",
+                    "DefaultArrivalTile": { "X": 6, "Y": 10 },
+                    "CreateOnLoad": { "MapPath": "Maps/{{Dahlia}}_Mine"}
+                },
+                "{{Dahlia}}_Grove": {
+                    "DisplayName": "{{i18n:Strings.Dahlia.Locations.2}}",
+                    "DefaultArrivalTile": { "X": 15, "Y": 34 },
+                    "CreateOnLoad": { "MapPath": "Maps/{{Dahlia}}_Grove"}
                 }
             }
         },
@@ -98,6 +126,15 @@
             ]
         },
         {
+            "LogName": "Leaving The Grove",
+            "Action": "EditMap",
+            "Target": "Maps/{{Dahlia}}_Grove",
+            "AddWarps": [
+                "15 35 EastScarp_LoresCove 46 75",
+                "16 35 EastScarp_LoresCove 46 75"
+            ]
+        },
+        {
             "LogName": "Map Strings",
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
@@ -109,12 +146,39 @@
                 "AliRadio": "{{i18n:Strings.Aliyah.Radio.{{Random:{{Range: 1,8}}}}}}",
                 "AliAttic": "{{i18n:Strings.Aliyah.AtticDoor}}",
                 "SandWarmer": "{{i18n:Strings.Aliyah.SandWarmer}}",
-                "WeddingPhoto": "{{i18n:Strings.Aliyah.WeddingPhoto}}",
                 "PietreGrave": "{{i18n:Strings.Aliyah.Graveside}}",
                 "SpareRoom": "{{i18n:Strings.Aliyah.SpareRoom}}",
-                "NotFriends": "It looks like a door, but it's just an elaborate carving in the tree's trunk...."
+                "NotFriends": "It looks like a door, but it's just an elaborate carving in the tree's trunk....",
+                "DahlRadio": "{{i18n:Strings.Dahlia.Radio.{{Random:{{Range: 1,8}}}}}}",
+                "DahlFlowers": "{{i18n:Strings.Dahlia.Locations.Flowers}}",
+                "DahlSign": "{{i18n:Strings.Dahlia.Locations.Sign}}",
+                "DahlPlush": "{{i18n:Strings.Dahlia.Locations.WolfPlush}}",
+                "DahlCurios": "{{i18n:Strings.Dahlia.Locations.Curios}}",
+                "DahlClothes": "{{i18n:Strings.Dahlia.Locations.Clothes}}"
             }
-
+        },
+        {
+            "LogName": "Ali Wedding Photo Load",
+            "Action": "Load",
+            "Target": "LooseSprites/Aliyah_WeddingPhoto",
+            "FromFile": "Assets/Tilesheets/Aliyah_WeddingPhoto.png"
+        },
+        {
+            "LogName": "MEEP Wedding Photo",
+            "Action": "EditMap",
+            "Target": "{{Aliyah}}_House",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 7,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image LooseSprites/Aliyah_WeddingPhoto 0 0 168 204"
+                    }
+                }
+            ]
         }
      ]
 }

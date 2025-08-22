@@ -449,7 +449,7 @@
   </object>
   <object id="10" name="TileData" x="112" y="208" width="16" height="16">
    <properties>
-    <property name="Action" value="Message WeddingPhoto"/>
+    <property name="Action" value="MEEP_CloseupInteraction_Image LooseSprites/Aliyah_WeddingPhoto"/>
    </properties>
   </object>
   <object id="11" name="TileData" x="320" y="384" width="16" height="16">

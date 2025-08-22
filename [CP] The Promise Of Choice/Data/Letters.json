@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        {
+            "LogName": "TPOChoice Mail",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "TPOC_DahliaMineDelve": "{{i18n:Mail.Dahlia.Letter1|DahlPetName={{DahlPetName}}}}[letterbg Mods/Daine.TPOChoice/LetterBackgrounds 1][textcolor black][#]{{i18n:Mail.Dahlia.MineDelveTitle}}"
+            }
+        },
+        {
+            "LogName": "Letter Conditions",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries":{
+                "TPOC_DahliaMineDelveMail": {
+                "Id": "TPOC_DahliaMineDelveMail",
+                "Trigger": "DayStarted",
+                "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Dahlia}} 1250, PLAYER_HAS_SEEN_EVENT Current Daine.Dahlia.4H",
+                "Action": "AddMail Current TPOC_DahliaMineDelve Now"
+            }
+        }
+    }
+]
+}
