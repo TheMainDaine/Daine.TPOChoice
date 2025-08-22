@@ -13,16 +13,26 @@
             }
         },
         {
+            "LogName": "Ali Clearing Patch",
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_DeepMountains",
+            "FromFile": "Assets/Maps/tpoc_DeepMountains.tmx",
+            "ToArea": { "X": 69, "Y": 37, "Width": 14, "Height": 10 }
+        },
+        {
+            "LogName": "Ali Clearing Patch Winter",
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_DeepMountains_winter",
+            "FromFile": "Assets/Maps/tpoc_DeepMountains_winter.tmx",
+            "ToArea": { "X": 69, "Y": 37, "Width": 14, "Height": 10 },
+            "When": "SEASON Winter"
+        },
+        {
             "LogName": "Dahl Map Patch",
             "Action": "EditMap",
             "Target": "Maps/EastScarp_LoresCove",
             "FromFile": "Assets/Maps/TPOC_DahlPatch1.tmx",
-            "ToArea": {
-            "X": 38,
-            "Y": 66,
-            "Width": 19,
-            "Height": 13
-            }
+            "ToArea": { "X": 38, "Y": 66, "Width": 19, "Height": 13 }
         },
         {
             "LogName": "Open Grove",
@@ -153,7 +163,7 @@
                 "DahlFlowers": "{{i18n:Strings.Dahlia.Locations.Flowers}}",
                 "DahlSign": "{{i18n:Strings.Dahlia.Locations.Sign}}",
                 "DahlPlush": "{{i18n:Strings.Dahlia.Locations.WolfPlush}}",
-                "DahlCurios": "{{i18n:Strings.Dahlia.Locations.Curios}}",
+                "DahlCurios": "{{i18n:Strings.Dahlia.Locations.Curios.{{Random:{{Range: 1,4}}}}}}}}",
                 "DahlClothes": "{{i18n:Strings.Dahlia.Locations.Clothes}}"
             }
         },
