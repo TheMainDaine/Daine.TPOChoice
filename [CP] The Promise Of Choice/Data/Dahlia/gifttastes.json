@@ -1,12 +1,34 @@
+{
+  "Changes": [
     {
-      "Changes": [
-        {
-      "LogName": "Gift Tastes",
+      "LogName": "Dahlia Blank Gift Tastes",
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
-      "Entries": {
-        "{{ModId}}_Dahlia": "{{i18n:Dahlia.GiftReaction.Love}}/577 595 795 305 414 104 422 418 72 564 566 578 MysticSyrup/{{i18n:Dahlia.GiftReaction.Like}}/-80 -5 -4 -2 -6 -12 -14/{{i18n:Dahlia.GiftReaction.Dislike}}/279 -7 -15 -18 -19 -22 -26/{{i18n:Dahlia.GiftReaction.Hate}}/alcohol_item ButterflyPowder -27 -74 -75 -79 -81 -20/{{i18n:Dahlia.GiftReaction.Neutral}}/373 -21 -28 -23 EastScarp_SeaGlass/"
+      "Entries": { "{{Dahlia}}": "//////////" }
+    },
+    {
+      "LogName": "Dahlia Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Fields": {
+        "{{Dahlia}}": {
+          //Love
+          "0": "{{i18n:Dahlia.GiftReaction.Love}}",
+          "1": "577 595 795 305 414 104 422 418 72 564 566 578 MysticSyrup {{Dahlia}}Flowers {{EnD}}_CrystallineLily {{SnS}}_ancientwildfairyrose {{SnS}}_ancientazuredetura {{EnD}}_PixieBloom",
+          //Like
+          "2": "{{i18n:Dahlia.GiftReaction.Like}}",
+          "3": "-80 -5 -4 -2 -6 -12 -14 376 22 18 851 420 257 404 EastScarp_FrostBerry {{EnD}}_Bluffshroom {{SnS}}_glowingpolyporemushrooms",
+          //Dislike
+          "4": "{{i18n:Dahlia.GiftReaction.Dislike}}",
+          "5": "279 -7 -15 -18 -19 -22 -26 -17",
+          //Hate
+          "6": "{{i18n:Dahlia.GiftReaction.Hate}}",
+          "7": "alcohol_item ButterflyPowder {{SnS}}_StygiumOre 613 634 635 636 637 638 91 834 -27 -74 -75 -79 -81 -20",
+          //Neutral
+          "8": "{{i18n:Dahlia.GiftReaction.Neutral}}",
+          "9": "73 -21 -28 -23 EastScarp_SeaGlass"
+        }
       }
-      }
-    ]
     }
+  ]
+}

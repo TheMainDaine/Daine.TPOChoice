@@ -40,12 +40,12 @@
           "Home": [
             {
               "Id": "Default",
-              "Location": "EastScarp_LoresCove",
+              "Location": "{{Dahlia}}_Grove",
               "Tile": {
-                "X": 46,
-                "Y": 75
+                "X": 33,
+                "Y": 34
               },
-              "Direction": "Left"
+              "Direction": "down"
             }
           ]
         }

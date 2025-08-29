@@ -9,11 +9,15 @@
         "When": { "HasSeenEvent |contains=Daine.Dahlia.0H": false }
       },
       {
-        "LogName": "Dahlia Unlocked - Sample",
+        "LogName": "Dahlia - Unlocked",
         "Action": "EditData",
         "Target": "Characters/schedules/{{Dahlia}}",
         "Entries": {
-          "spring": "0 EastScarp_LoresCove 46 75 3/610 Town 33 75 0/1200 EastScarp_Village 67 75 2/1700 Mountain 55 32 0/2100 EastScarp_DeepMountains 23 26 2/0100 EastScarp_LoresCove 47 75 1" },
+          "spring": "{{Random:{{Dahlia.Spring.A}}++{{Dahlia.Spring.B}}++{{Dahlia.Spring.C}}++{{Dahlia.Spring.D}}++{{Dahlia.Spring.E}}++{{Dahlia.Spring.F}}++{{Dahlia.Spring.G}}++{{Dahlia.Spring.H}}++{{Dahlia.Spring.I}}++{{Dahlia.Spring.J}}|InputSeparator=++}}",
+          "GreenRain":
+          "0 {{Dahlia}}_Grove 32 34 1/610 {{Dahlia}}_Grove 32 34 2 {{Dahlia}}_nap/700 EastScarp_DeepMountains 23 26 2/2300 {{Dahlia}}_Grove 33 32 2 daine.tpochoice_dahlia_sleep",
+          "Rain":
+          "0 {{Dahlia}}_Grove 32 34 1/610 {{Dahlia}}_Grove 32 34 2 {{Dahlia}}_nap/700 Town 33 75 0 {{Dahlia}}_ponderthink/1100 EastScarp_Village 45 103 1 {{Dahlia}}_bounceright/1400 EastScarp_DeepMountains 47 46 1 {{Dahlia}}_groundsit/2300 {{Dahlia}}_Grove 32 34 2 daine.tpochoice_dahlia_sleep" },
           "When": { "HasSeenEvent |contains=Daine.Dahlia.0H": true }
         }
       ]

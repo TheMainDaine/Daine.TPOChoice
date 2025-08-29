@@ -1,58 +1,85 @@
 {
-    "Changes": [
-            {
+  "Changes": [
+    {
       "LogName": "Hard Coded Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/{{Dahlia}}",
       "Entries": {
         //Basic
         "Name": "{{i18n:Dahlia.Name}}",
-        "Introduction": "{{i18n:Dahlia.Introduction}}",
+        "Introduction": "{{i18n:Dahlia.Introduction|DahlPetName={{DahlPetName}}}}",
         //Joja and Community Center
-        "joja_Begin": "{{i18n:Dahlia.JojaBegin}}",
-        "cc_Begin": "{{i18n:Dahlia.CCBegin}}",
-        "cc_Bus": "{{i18n:Dahlia.CCBus}}",
-        "cc_Minecart": "{{i18n:Dahlia.CCMinecart}}",
-        "cc_Complete": "{{i18n:Dahlia.CCComplete}}",
-        "movieTheater": "{{i18n:Dahlia.MovieTheater}}",
+        "joja_Begin": "{{i18n:Dahlia.JojaBegin|DahlPetName={{DahlPetName}}}}",
+        "cc_Begin": "{{i18n:Dahlia.CCBegin|DahlPetName={{DahlPetName}}}}",
+        "cc_Bus": "{{i18n:Dahlia.CCBus|DahlPetName={{DahlPetName}}}}",
+        "cc_Minecart": "{{i18n:Dahlia.CCMinecart|DahlPetName={{DahlPetName}}}}",
+        "cc_Complete": "{{i18n:Dahlia.CCComplete|DahlPetName={{DahlPetName}}}}",
+        "movieTheater": "{{i18n:Dahlia.MovieTheater|DahlPetName={{DahlPetName}}}}",
         //Gift Tastes
-        "AcceptGift_(O)StardropTea": "{{i18n:Dahlia.GiftReaction.StardropTea}}",
-        "AcceptGift_Love": "{{i18n:Dahlia.GiftReaction.Love}}",
-        "AcceptGift_Like": "{{i18n:Dahlia.GiftReaction.Like}}",
-        "AcceptGift_Neutral": "{{i18n:Dahlia.GiftReaction.Neutral}}",
-        "AcceptGift_Dislike": "{{i18n:Dahlia.GiftReaction.Dislike}}",
-        "AcceptGift_Hate": "{{i18n:Dahlia.GiftReaction.Hate}}",
+        "AcceptGift_(O)StardropTea": "{{i18n:Dahlia.GiftReaction.StardropTea|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_Love": "{{i18n:Dahlia.GiftReaction.Love|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_Like": "{{i18n:Dahlia.GiftReaction.Like|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_Neutral": "{{i18n:Dahlia.GiftReaction.Neutral|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_Dislike": "{{i18n:Dahlia.GiftReaction.Dislike|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_Hate": "{{i18n:Dahlia.GiftReaction.Hate|DahlPetName={{DahlPetName}}}}",
         //Specific Gifts
-
+        "AcceptGift_(O){{Dahlia}}Flowers": "{{i18n:Dahlia.GiftReaction.Namesake|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O){{EnD}}_SanguineHeart": "{{i18n:Dahlia.GiftReaction.FalseHeart|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O){{EnD}}_BeholderFruit": "{{i18n:Dahlia.GiftReaction.EyeFruit|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O){{EnD}}_DragonEye": "{{i18n:Dahlia.GiftReaction.DragonEye|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O){{EnD}}_MandrakeRoot": "{{i18n:Dahlia.GiftReaction.Mandrake|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O){{EnD}}_Bluffshroom": "{{i18n:Dahlia.GiftReaction.Bluffshroom|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O){{EnD}}_CrystallineLily": "{{i18n:Dahlia.GiftReaction.CrystalLily|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O){{EnD}}_PixieBloom": "{{i18n:Dahlia.GiftReaction.PixieBloom|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O){{SnS}}_ancientwildfairyrose": "{{i18n:Dahlia.GiftReaction.DNFairyRose|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O){{SnS}}_ancientazuredetura": "{{i18n:Dahlia.GiftReaction.DNDetura|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O){{SnS}}_glowingpolyporemushrooms": "{{i18n:Dahlia.GiftReaction.DNMushroom|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O)851": "{{i18n:Dahlia.GiftReaction.Mushroom|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O)420": "{{i18n:Dahlia.GiftReaction.Mushroom|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O)257": "{{i18n:Dahlia.GiftReaction.Mushroom|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O)404": "{{i18n:Dahlia.GiftReaction.Mushroom|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O)22": "{{i18n:Dahlia.GiftReaction.FlowersCategory|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_(O)18": "{{i18n:Dahlia.GiftReaction.FlowersCategory|DahlPetName={{DahlPetName}}}}",
+        //Gifts by Category
+        "AcceptGift_category_cooking": "{{i18n:Dahlia.GiftReaction.CookingCategory|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_category_vegetable": "{{i18n:Dahlia.GiftReaction.VegetableCategory|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_category_fruit": "{{i18n:Dahlia.GiftReaction.FruitCategory|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_category_egg": "{{i18n:Dahlia.GiftReaction.EggCategory|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_category_milk": "{{i18n:Dahlia.GiftReaction.MilkCategory|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_category_fish": "{{i18n:Dahlia.GiftReaction.FishCategory|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_category_artisan": "{{i18n:Dahlia.GiftReaction.ArtisanCategory|DahlPetName={{DahlPetName}}}}",
+        "AcceptGift_category_flowers": "{{i18n:Dahlia.GiftReaction.FlowersCategory|DahlPetName={{DahlPetName}}}}",
         //Gift Rejections
-        "RejectItem_alcohol_item": "{{i18n:Dahlia.GiftReaction.AlcoholCategory}}",
-        "RejectItem_(O)458":"{{i18n:Dahlia.GiftRejection.Bouquet}}",
-        "RejectItem_(O)ApryllForever.CPPolyamorySweet_AineFlower": "{{i18n:Dahlia.GiftRejection.Polysweet}}",
-        "RejectItem_(O)ApryllForever.CPPolyamorySweet_AtagartisPendant": "{{i18n:Dahlia.GiftRejection.Polysweet}}",
-        "RejectItem_(O)ApryllForever.CPPolyamorySweet_MermaidBouquet": "{{i18n:Dahlia.GiftRejection.Polysweet}}",
-        "RejectItem_(O)ApryllForever.CPPolyamorySweet_RoomieBGone": "{{i18n:Dahlia.GiftRejection.Polysweet}}",
-
+        "RejectItem_alcohol_item": "{{i18n:Dahlia.GiftReaction.AlcoholCategory|DahlPetName={{DahlPetName}}}}",
+        "RejectItem_(O)458": "{{i18n:Dahlia.GiftRejection.Bouquet|DahlPetName={{DahlPetName}}}}",
+        "RejectItem_(O)ApryllForever.CPPolyamorySweet_AineFlower": "{{i18n:Dahlia.GiftRejection.Polysweet|DahlPetName={{DahlPetName}}}}",
+        "RejectItem_(O)ApryllForever.CPPolyamorySweet_AtagartisPendant": "{{i18n:Dahlia.GiftRejection.Polysweet|DahlPetName={{DahlPetName}}}}",
+        "RejectItem_(O)ApryllForever.CPPolyamorySweet_MermaidBouquet": "{{i18n:Dahlia.GiftRejection.Polysweet|DahlPetName={{DahlPetName}}}}",
+        "RejectItem_(O)ApryllForever.CPPolyamorySweet_RoomieBGone": "{{i18n:Dahlia.GiftRejection.Polysweet|DahlPetName={{DahlPetName}}}}",
+        "RejectItem_(O){{SnS}}_StygiumOre": "{{i18n:Dahlia.GiftReaction.StygiumOre|DahlPetName={{DahlPetName}}}}",
+        //Location-specific Dialogue
+        "{{Dahlia}}_Grove_32_34": "{{i18n:Dahlia.Animations.Sleeping}}",
         //Pre-Festival Dialogue
-        "spring_12": "{{i18n:Dahlia.EggFestival}}",
-        "spring_23": "{{i18n:Dahlia.FlowerDance}}",
-        "summer_10": "{{i18n:Dahlia.Luau}}",
-        "summer_27": "{{i18n:Dahlia.MoonlightJelly}}",
-        "fall_15": "{{i18n:Dahlia.SDVFair}}",
-        "fall_26": "{{i18n:Dahlia.SpiritsEve}}",
-        "winter_7": "{{i18n:Dahlia.IceFestival}}",
-        "winter_15": "{{i18n:Dahlia.NightMarket}}",
-        "winter_24": "{{i18n:Dahlia.WinterStar}}",
+        "spring_12": "{{i18n:Dahlia.EggFestival|DahlPetName={{DahlPetName}}}}",
+        "spring_23": "{{i18n:Dahlia.FlowerDance|DahlPetName={{DahlPetName}}}}",
+        "summer_10": "{{i18n:Dahlia.Luau|DahlPetName={{DahlPetName}}}}",
+        "summer_27": "{{i18n:Dahlia.MoonlightJelly|DahlPetName={{DahlPetName}}}}",
+        "fall_15": "{{i18n:Dahlia.SDVFair|DahlPetName={{DahlPetName}}}}",
+        "fall_26": "{{i18n:Dahlia.SpiritsEve|DahlPetName={{DahlPetName}}}}",
+        "winter_7": "{{i18n:Dahlia.IceFestival|DahlPetName={{DahlPetName}}}}",
+        "winter_15": "{{i18n:Dahlia.NightMarket|DahlPetName={{DahlPetName}}}}",
+        "winter_24": "{{i18n:Dahlia.WinterStar|DahlPetName={{DahlPetName}}}}",
         //End Of Season Dialogue
-        "spring_28": "{{i18n:Dahlia.SpringEnd}}",
-        "summer_28": "{{i18n:Dahlia.SummerEnd}}",
-        "fall_28": "{{i18n:Dahlia.FallEnd}}",
-        "winter_28": "{{i18n:Dahlia.WinterEnd}}",
+        "spring_28": "{{i18n:Dahlia.SpringEnd|DahlPetName={{DahlPetName}}}}",
+        "summer_28": "{{i18n:Dahlia.SummerEnd|DahlPetName={{DahlPetName}}}}",
+        "fall_28": "{{i18n:Dahlia.FallEnd|DahlPetName={{DahlPetName}}}}",
+        "winter_28": "{{i18n:Dahlia.WinterEnd|DahlPetName={{DahlPetName}}}}",
         // Green Rain
-        "GreenRain": "{{i18n:Dahlia.GreenRain}}",
-        "GreenRainFinished": "{{i18n:Dahlia.GreenRainFinished}}",
-        "GreenRain_2": "{{i18n:Dahlia.GreenRain2}}",
+        "GreenRain": "{{i18n:Dahlia.GreenRain|DahlPetName={{DahlPetName}}}}",
+        "GreenRainFinished": "{{i18n:Dahlia.GreenRainFinished|DahlPetName={{DahlPetName}}}}",
+        "GreenRain_2": "{{i18n:Dahlia.GreenRain2|DahlPetName={{DahlPetName}}}}",
         // Other Specific Dates
-        "winter_21": "{{i18n:Dahlia.Winter21.{{HasMod|Contains=DN.SNS}}}}"
+        "winter_21": "{{i18n:Dahlia.Winter21.{{HasMod|Contains=DN.SNS}}|DahlPetName={{DahlPetName}}}}"
       }
     },
     //Dialogue Pools
@@ -61,7 +88,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/{{Dahlia}}",
       "Entries": {
-        "{{WeekDay}}": "{{i18n:Dahlia.LowHeart.{{Random:{{Range: 1, 18}}}}|DahlPetName={{DahlPetName}}}}"
+        "{{WeekDay}}": "{{i18n:Dahlia.LowHeart.{{Random:{{Range: 1, 30}}}}|DahlPetName={{DahlPetName}}}}"
       }
     },
     {
@@ -69,7 +96,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/{{Dahlia}}",
       "Entries": {
-        "{{WeekDay}}": "{{i18n:Dahlia.HighHeart.{{Random:{{Range: 1, 13}}}}|DahlPetName={{DahlPetName}}}}"
+        "{{WeekDay}}": "{{i18n:Dahlia.HighHeart.{{Random:{{Range: 1, 41}}}}|DahlPetName={{DahlPetName}}}}"
       },
       "When": {
         "HasSeenEvent": "Daine.Dahlia.6H"
@@ -87,5 +114,5 @@
         "HasFlag |contains=Daine.Dahlia_OverrideSeenToday": false
       }
     }
-    ]
+  ]
 }

@@ -34,8 +34,8 @@
   {
     "Id": "Aliyah",
     "Condition": "SEASON Fall",
-    "Portrait": "Portraits/{{ModId}}_autumn1_Aliyah",
-    "Sprite": "Characters/{{ModId}}_autumn1_Aliyah",
+    "Portrait": "Portraits/{{ModId}}_autumn_Aliyah",
+    "Sprite": "Characters/{{ModId}}_autumn_Aliyah",
     "IsIslandAttire": false,
     "Precedence": 0,
     "Weight": 1

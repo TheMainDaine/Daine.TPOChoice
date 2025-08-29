@@ -1,10 +1,10 @@
 {
-  "Format": "2.6.0",
+  "Format": "2.7.0",
   "Changes": [
     {
       "LogName": "Blank Load",
       "Action": "Load",
-      "Target": "Characters/Dialogue/Daine.TPOChoice_Aliyah, Characters/schedules/Daine.TPOChoice_Aliyah, Characters/Dialogue/Daine.TPOChoice_Dahlia, Characters/schedules/Daine.TPOChoice_Dahlia, Data/Events/{{Aliyah}}_Yard, Data/Events/{{Aliyah}}_House, Data/Events/{{Dahlia}}_Mine, Data/Events/{{Dahlia}}_Grove",
+      "Target": "Characters/Dialogue/Daine.TPOChoice_Aliyah, Characters/schedules/Daine.TPOChoice_Aliyah, Characters/Dialogue/Daine.TPOChoice_Dahlia, Characters/schedules/Daine.TPOChoice_Dahlia, Data/Events/{{Aliyah}}_Yard, Data/Events/{{Aliyah}}_House, Data/Events/Daine.TPOChoice_Dahlia_Mine, Data/Events/Daine.TPOChoice_Dahlia_Grove",
       "FromFile": "Assets/blank.json"
     },
 {
@@ -31,7 +31,7 @@
       }
     },
     {
-      "Logname": "Inject New Emotes",
+      "LogName": "Inject New Emotes",
       "Action": "EditImage",
       "PatchMode": "Replace",
       "Target": "TileSheets/emotes",
@@ -58,42 +58,52 @@
  }
   },
 
-  // Dynamic Tokens
-
 "DynamicTokens": [
     {"Name": "GeneralDialogueTokens",
       "Value": "|Honorific={{Farmer_Honorific}} |Surname={{Random: {{Farmer_Surname}} |key=Farmer_Surname}}"},
-
-    { "Name": "DahlPetName", "Value": "Farmer"},    
-    { "Name": "DahlPetName", "Value": "Bestie",
+    {"Name": "DahlPetName", "Value": "Farmer"},    
+    {"Name": "DahlPetName", "Value": "Bestie",
     "When": {"HasFlag |contains=Dahl.Visiting.Penpal": true}},
-    { "Name": "DahlPetName", "Value": "Old Friend",
+    {"Name": "DahlPetName", "Value": "Old Friend",
     "When": {"HasFlag |contains=Dahl.Childhood.Friend": true}},
-    { "Name": "DahlPetName", "Value": "Hero",
-    "When": {"HasSeenEvent |contains=Daine.Dahlia.10H": true}},
-
-    { "Name": "WeekDayList",
+    {"Name": "DahlPetName", "Value": "Hero", 
+    "When": { "HasSeenEvent |contains=Daine.Dahlia.10H": true}},
+    {"Name": "WeekDayList",
       "Value": "Sun, Mon, Tue, Wed, Thu, Fri, Sat"},
-    { "Name": "WeekDay",
+    {"Name": "WeekDay",
       "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"},
-
     //Mod ID Tokens
-        {"Name": "Aliyah", "Value": "Daine.TPOChoice_Aliyah"},
-        {"Name": "Dahlia", "Value": "Daine.TPOChoice_Dahlia"},
-        {"Name": "Miguel", "Value": "Daine.TPOChoice_Miguel"},
-        {"Name": "Raquel", "Value": "Daine.TPOChoice_Raquel"},
-        {"Name": "Iris", "Value": "Daine.TPOChoice_Iris"},
-        {"Name": "Spreach", "Value": "Daine.TPOChoice_Spreach"},
-        {"Name": "Coffee", "Value": "Daine.TPOChoice_GotoranCoffee"},
-        {"Name": "Tea", "Value": "Daine.TPOChoice_DandelionTea"},
-        {"Name": "Ghost", "Value": "Daine.TPOChoice_Ghost"},
-        {"Name": "BirchWolf", "Value": "Daine.TPOChoice_BirchWolf"},
-        {"Name": "DarkWolf", "Value": "Daine.TPOChoice_DarkWolf"},
-        {"Name": "JuniWolf", "Value": "Daine.TPOChoice_JuniWolf"},
-        {"Name": "LeahWolf", "Value": "Daine.TPOChoice_LeahWolf"},
-        {"Name": "MahogaWolf", "Value": "Daine.TPOChoice_MahogaWolf"},
-        {"Name": "OakWolf", "Value": "Daine.TPOChoice_OakWolf"},
-        {"Name": "WalnutWolf", "Value": "Daine.TPOChoice_WalnutWolf"},
-        {"Name": "WhiteWolf", "Value": "Daine.TPOChoice_WhiteWolf"},
-        {"Name": "WizWolf", "Value": "Daine.TPOChoice_WizWolf"}]
+    {"Name": "Aliyah", "Value": "Daine.TPOChoice_Aliyah"},
+    {"Name": "Dahlia", "Value": "Daine.TPOChoice_Dahlia"},
+    {"Name": "Miguel", "Value": "Daine.TPOChoice_Miguel"},
+    {"Name": "Raquel", "Value": "Daine.TPOChoice_Raquel"},
+    {"Name": "Iris", "Value": "Daine.TPOChoice_Iris"},
+    {"Name": "Spreach", "Value": "Daine.TPOChoice_Spreach"},
+    {"Name": "Coffee", "Value": "Daine.TPOChoice_GotoranCoffee"},
+    {"Name": "Tea", "Value": "Daine.TPOChoice_DandelionTea"},
+    {"Name": "Ghost", "Value": "Daine.TPOChoice_Ghost"},
+    {"Name": "BirchWolf", "Value": "Daine.TPOChoice_BirchWolf"},
+    {"Name": "DarkWolf", "Value": "Daine.TPOChoice_DarkWolf"},
+    {"Name": "JuniWolf", "Value": "Daine.TPOChoice_JuniWolf"},
+    {"Name": "LeahWolf", "Value": "Daine.TPOChoice_LeahWolf"},
+    {"Name": "MahogaWolf", "Value": "Daine.TPOChoice_MahogaWolf"},
+    {"Name": "OakWolf", "Value": "Daine.TPOChoice_OakWolf"},
+    {"Name": "WalnutWolf", "Value": "Daine.TPOChoice_WalnutWolf"},
+    {"Name": "WhiteWolf", "Value": "Daine.TPOChoice_WhiteWolf"},
+    {"Name": "WizWolf", "Value": "Daine.TPOChoice_WizWolf"},
+    {"Name": "BF", "Value": "MadDog.HashtagBearFam"},
+    {"Name": "EnD", "Value": "TenebrousNova.EliDylan.CP"},
+    {"Name": "SnS", "Value": "DN.SnS"},
+    //Dahl Schedule Tokens
+    {"Name": "Dahlia.Spring.A", "Value": "0 Daine.TPOChoice_Dahlia_Grove 32 34 1/610 Daine.TPOChoice_Dahlia_Grove 32 34 2 Daine.TPOChoice_Dahlia_nap/730 EastScarp_LoresCove 9 28 3 Daine.TPOChoice_Dahlia_bounceleft/1500 EastScarp_LoresCove 19 38 2 Daine.TPOChoice_Dahlia_jigglesit/1730 EastScarp_DeepMountains 23 26 2/2030 EastScarp_DeepMountains 47 46 1 Daine.TPOChoice_Dahlia_groundsit/2300 Daine.TPOChoice_Dahlia_Grove 32 34 2 daine.tpochoice_dahlia_sleep"},
+    {"Name": "Dahlia.Spring.B", "Value": "0 Daine.TPOChoice_Dahlia_Grove 32 34 1/610 Daine.TPOChoice_Dahlia_Grove 32 34 2 Daine.TPOChoice_Dahlia_nap/700 EastScarp_Village 6 109 2 Daine.TPOChoice_Dahlia_jigglesit/1430 EastScarp_Village 31 63 3 Daine.TPOChoice_Dahlia_bounceleft/1700 EastScarp_DeepMountains 47 46 1 Daine.TPOChoice_Dahlia_groundsit/2100 EastScarp_DeepMountains 23 26 2/2300 Daine.TPOChoice_Dahlia_Grove 32 34 2 daine.tpochoice_dahlia_sleep"},
+    {"Name": "Dahlia.Spring.C", "Value": "0 Daine.TPOChoice_Dahlia_Grove 32 34 1/610 Daine.TPOChoice_Dahlia_Grove 32 34 2 Daine.TPOChoice_Dahlia_nap/630 Mountain 45 20 1 Daine.TPOChoice_Dahlia_groundsit/1430 Mountains 24 5 2/1700 EastScarp_DeepMountains 47 46 1 Daine.TPOChoice_Dahlia_groundsit/2100 EastScarp_DeepMountains 23 26 2/2300 Daine.TPOChoice_Dahlia_Grove 32 34 2 daine.tpochoice_dahlia_sleep"},
+    {"Name": "Dahlia.Spring.D", "Value": "0 Daine.TPOChoice_Dahlia_Grove 32 34 1/610 Daine.TPOChoice_Dahlia_Grove 32 34 2 Daine.TPOChoice_Dahlia_nap/700 Forest 34 25 2 Daine.TPOChoice_Dahlia_docksit/1500 Forest 51 10 2/1730 EastScarp_DeepMountains 23 26 2/2030 EastScarp_DeepMountains 47 46 1 Daine.TPOChoice_Dahlia_groundsit/2300 Daine.TPOChoice_Dahlia_Grove 32 34 2 daine.tpochoice_dahlia_sleep"},
+    {"Name": "Dahlia.Spring.E", "Value": "0 Daine.TPOChoice_Dahlia_Grove 32 34 1/610 Daine.TPOChoice_Dahlia_Grove 32 34 2 Daine.TPOChoice_Dahlia_nap/700 Town 33 75 0 Daine.TPOChoice_Dahlia_ponderthink/1400 Town 18 64 1 Daine.TPOChoice_Dahlia_jigglesit/1800 EastScarp_DeepMountains 23 26 2/2100 EastScarp_DeepMountains 47 46 1 Daine.TPOChoice_Dahlia_groundsit/2300 Daine.TPOChoice_Dahlia_Grove 32 34 2 daine.tpochoice_dahlia_sleep"},
+    {"Name": "Dahlia.Spring.F", "Value": "0 Daine.TPOChoice_Dahlia_Grove 32 34 1/610 Daine.TPOChoice_Dahlia_Grove 32 34 2 Daine.TPOChoice_Dahlia_nap/700 Town 33 75 0 Daine.TPOChoice_Dahlia_ponderthink/1400 Town 18 64 1 Daine.TPOChoice_Dahlia_jigglesit/1800 EastScarp_FairyPool 12 40 1 Daine.TPOChoice_Dahlia_groundsit/2100 EastScarp_FairyPool 40 37 3 Daine.TPOChoice_Dahlia_bounceleft/2300 Daine.TPOChoice_Dahlia_Grove 32 34 2 daine.tpochoice_dahlia_sleep"},
+    {"Name": "Dahlia.Spring.G", "Value": "0 Daine.TPOChoice_Dahlia_Grove 32 34 1/610 Daine.TPOChoice_Dahlia_Grove 32 34 2 Daine.TPOChoice_Dahlia_nap/730 EastScarp_LoresCove 9 28 3 Daine.TPOChoice_Dahlia_bounceleft/1500 EastScarp_LoresCove 19 38 2 Daine.TPOChoice_Dahlia_jigglesit/1630 EastScarp_FairyPool 40 37 3 Daine.TPOChoice_Dahlia_bounceleft/2030 EastScarp_FairyPool 12 40 1 Daine.TPOChoice_Dahlia_groundsit/2300 Daine.TPOChoice_Dahlia_Grove 32 34 2 daine.tpochoice_dahlia_sleep"},
+    {"Name": "Dahlia.Spring.H", "Value": "0 Daine.TPOChoice_Dahlia_Grove 32 34 1/610 Daine.TPOChoice_Dahlia_Grove 32 34 2 Daine.TPOChoice_Dahlia_nap/700 EastScarp_Village 6 109 2 Daine.TPOChoice_Dahlia_jigglesit/1430 EastScarp_Village 31 63 3 Daine.TPOChoice_Dahlia_bounceleft/1700 EastScarp_FairyPool 12 40 1 Daine.TPOChoice_Dahlia_groundsit/2100 EastScarp_FairyPool 40 37 3 Daine.TPOChoice_Dahlia_bounceleft/2300 Daine.TPOChoice_Dahlia_Grove 32 34 2 daine.tpochoice_dahlia_sleep"},
+    {"Name": "Dahlia.Spring.I", "Value": "0 Daine.TPOChoice_Dahlia_Grove 32 34 1/610 Daine.TPOChoice_Dahlia_Grove 32 34 2 Daine.TPOChoice_Dahlia_nap/630 Mountain 45 20 1 Daine.TPOChoice_Dahlia_groundsit/1430 Mountains 24 5 2/1700 EastScarp_FairyPool 40 37 3 Daine.TPOChoice_Dahlia_bounceleft/2100 EastScarp_FairyPool 12 40 1 Daine.TPOChoice_Dahlia_groundsit/2300 Daine.TPOChoice_Dahlia_Grove 32 34 2 daine.tpochoice_dahlia_sleep"},
+    {"Name": "Dahlia.Spring.J", "Value": "0 Daine.TPOChoice_Dahlia_Grove 32 34 1/610 Daine.TPOChoice_Dahlia_Grove 32 34 2 Daine.TPOChoice_Dahlia_nap/700 Forest 34 25 2 Daine.TPOChoice_Dahlia_docksit/1500 Forest 51 10 2/1730 EastScarp_FairyPool 12 40 1 Daine.TPOChoice_Dahlia_groundsit/2100 EastScarp_FairyPool 40 37 3 Daine.TPOChoice_Dahlia_bounceleft/2300 Daine.TPOChoice_Dahlia_Grove 32 34 2 daine.tpochoice_dahlia_sleep"}
+  ]
 }

@@ -6,10 +6,10 @@
             "Target": "Maps/EastScarp_DeepMountains",
             "FromFile": "Assets/Maps/Ali_Mountains_Patch.tmx",
             "ToArea": {
-            "X": 52,
-            "Y": 0,
-            "Width": 7,
-            "Height": 5
+                "X": 52,
+                "Y": 0,
+                "Width": 7,
+                "Height": 5
             }
         },
         {
@@ -17,14 +17,24 @@
             "Action": "EditMap",
             "Target": "Maps/EastScarp_DeepMountains",
             "FromFile": "Assets/Maps/tpoc_DeepMountains.tmx",
-            "ToArea": { "X": 69, "Y": 37, "Width": 14, "Height": 10 }
+            "ToArea": {
+                "X": 69,
+                "Y": 37,
+                "Width": 14,
+                "Height": 10
+            }
         },
         {
             "LogName": "Ali Clearing Patch Winter",
             "Action": "EditMap",
             "Target": "Maps/EastScarp_DeepMountains_winter",
             "FromFile": "Assets/Maps/tpoc_DeepMountains_winter.tmx",
-            "ToArea": { "X": 69, "Y": 37, "Width": 14, "Height": 10 },
+            "ToArea": {
+                "X": 69,
+                "Y": 37,
+                "Width": 14,
+                "Height": 10
+            },
             "When": "SEASON Winter"
         },
         {
@@ -32,19 +42,30 @@
             "Action": "EditMap",
             "Target": "Maps/EastScarp_LoresCove",
             "FromFile": "Assets/Maps/TPOC_DahlPatch1.tmx",
-            "ToArea": { "X": 38, "Y": 66, "Width": 19, "Height": 13 }
+            "ToArea": {
+                "X": 38,
+                "Y": 66,
+                "Width": 19,
+                "Height": 13
+            }
         },
         {
             "LogName": "Open Grove",
             "Action": "EditMap",
             "Target": "Maps/EastScarp_LoresCove",
-            "When": { "HasSeenEvent": "Daine.Dahlia.6H" },
+            "When": {
+                "HasSeenEvent": "Daine.Dahlia.6H"
+            },
             "FromFile": "Assets/Maps/TPOC_DahlPatch2.tmx",
-            "ToArea": { "X": 44, "Y": 73, "Width": 5, "Height": 4 },
+            "ToArea": {
+                "X": 44,
+                "Y": 73,
+                "Width": 5,
+                "Height": 4
+            },
             "PatchMode": "ReplaceByLayer"
         },
         {
-        
             "LogName": "Aliyah Yard",
             "Action": "Load",
             "Target": "Maps/{{Aliyah}}_Yard",
@@ -81,28 +102,53 @@
             "Entries": {
                 "{{Aliyah}}_Yard": {
                     "DisplayName": "{{i18n:Strings.Aliyah.Locations.1}}",
-                    "DefaultArrivalTile": { "X": 12, "Y": 22 },
-                    "CreateOnLoad": { "MapPath": "Maps/{{Aliyah}}_Yard" }                
+                    "DefaultArrivalTile": {
+                        "X": 12,
+                        "Y": 22
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{Aliyah}}_Yard"
+                    }
                 },
                 "{{Aliyah}}_House": {
                     "DisplayName": "{{i18n:Strings.Aliyah.Locations.2}}",
-                    "DefaultArrivalTile": { "X": 5, "Y": 30 },
-                    "CreateOnLoad": { "MapPath": "Maps/{{Aliyah}}_House" }                       
+                    "DefaultArrivalTile": {
+                        "X": 5,
+                        "Y": 30
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{Aliyah}}_House"
+                    }
                 },
                 "{{ModID}}_WaitingRoom": {
                     "DisplayName": "The Backroom",
-                    "DefaultArrivalTile": { "X": 7, "Y": 6 },
-                    "CreateOnLoad": { "MapPath": "Maps/{{ModID}}_WaitingRoom"}
+                    "DefaultArrivalTile": {
+                        "X": 7,
+                        "Y": 6
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModID}}_WaitingRoom"
+                    }
                 },
-                    "{{Dahlia}}_Mine": {
+                "{{Dahlia}}_Mine": {
                     "DisplayName": "{{i18n:Strings.Dahlia.Locations.1}}",
-                    "DefaultArrivalTile": { "X": 6, "Y": 10 },
-                    "CreateOnLoad": { "MapPath": "Maps/{{Dahlia}}_Mine"}
+                    "DefaultArrivalTile": {
+                        "X": 6,
+                        "Y": 10
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{Dahlia}}_Mine"
+                    }
                 },
                 "{{Dahlia}}_Grove": {
                     "DisplayName": "{{i18n:Strings.Dahlia.Locations.2}}",
-                    "DefaultArrivalTile": { "X": 15, "Y": 34 },
-                    "CreateOnLoad": { "MapPath": "Maps/{{Dahlia}}_Grove"}
+                    "DefaultArrivalTile": {
+                        "X": 15,
+                        "Y": 34
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{Dahlia}}_Grove"
+                    }
                 }
             }
         },
@@ -136,6 +182,14 @@
             ]
         },
         {
+            "LogName": "Dahlia's Personal Grove Entrance",
+            "Action": "EditMap",
+            "Target": "EastScarp_LoresCove",
+            "AddNPCWarps": [
+                "46 74 {{Dahlia}}_Grove 15 34"
+            ]
+        },
+        {
             "LogName": "Leaving The Grove",
             "Action": "EditMap",
             "Target": "Maps/{{Dahlia}}_Grove",
@@ -148,8 +202,7 @@
             "LogName": "Map Strings",
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
-            "Entries": 
-            {
+            "Entries": {
                 // Map Strings
                 "AliMountainSign": "{{i18n:Strings.Aliyah.Signs.1}}",
                 "AliYardSign": "{{i18n:Strings.Aliyah.Signs.2}}",
@@ -163,8 +216,11 @@
                 "DahlFlowers": "{{i18n:Strings.Dahlia.Locations.Flowers}}",
                 "DahlSign": "{{i18n:Strings.Dahlia.Locations.Sign}}",
                 "DahlPlush": "{{i18n:Strings.Dahlia.Locations.WolfPlush}}",
-                "DahlCurios": "{{i18n:Strings.Dahlia.Locations.Curios.{{Random:{{Range: 1,4}}}}}}}}",
-                "DahlClothes": "{{i18n:Strings.Dahlia.Locations.Clothes}}"
+                "DahlCurios": "{{i18n:Strings.Dahlia.Locations.Curios.{{Random:{{Range: 1,4}}}}}}",
+                "DahlClothes": "{{i18n:Strings.Dahlia.Locations.Clothes}}",
+                "DahlWarp": "{{i18n:Strings.Dahlia.Locations.Warp}}",
+                "DahlDiary": "{{i18n:Strings.Dahlia.Locations.Diary}}",
+                "DahlStove": "{{i18n:Strings.Dahlia.Locations.Stove}}"
             }
         },
         {
@@ -190,5 +246,5 @@
                 }
             ]
         }
-     ]
+    ]
 }

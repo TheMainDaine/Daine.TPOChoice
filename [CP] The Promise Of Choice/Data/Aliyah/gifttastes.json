@@ -1,12 +1,38 @@
+{
+  "Changes": [
     {
-      "Changes": [
-        {
-      "LogName": "Gift Tastes",
+      "LogName": "Gift Tastes Empty Data",
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
-      "Entries": {
-        "{{ModId}}_Aliyah": "{{i18n:Aliyah.GiftReaction.Love{{GeneralDialogueTokens}}}}/{{Tea}} {{Coffee}} 643 18 253 395 227 424 426/{{i18n:Aliyah.GiftReaction.Like{{GeneralDialogueTokens}}}}/22 815 446 433 -14 -6/{{i18n:Aliyah.GiftReaction.Dislike{{GeneralDialogueTokens}}}}/-21 -19 -22/{{i18n:Aliyah.GiftReaction.Hate{{GeneralDialogueTokens}}}}/alcohol_item ButterflyPowder 873 -20/{{i18n:Aliyah.GiftReaction.Neutral{{GeneralDialogueTokens}}}}/-4 -2 -5/"
-      }
-      }
+      "Entries": { "{{Aliyah}}": "//////////" }
+        },
+        {
+            "LogName": "Aliyah Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Fields": {
+                "{{Aliyah}}": {
+                    //Love
+                    "0": "{{i18n:Aliyah.GiftReaction.Love{{GeneralDialogueTokens}}}}",
+                    "1": "{{Tea}} {{Coffee}} 643 22 253 395 227 424 426 {{BF}}_Blueberry_Flavored_Coffee {{BF}}_Caramel_Flavored_Coffee {{BF}}_Chocolate_Flavored_Coffee {{BF}}_Raspberry_Flavored_Coffee DN.SnS_DinerCoffee DN.SnS_SalishBourbon",
+
+                    //Like
+                    "2": "{{i18n:Aliyah.GiftReaction.Like{{GeneralDialogueTokens}}}}",
+                    "3": "18 815 446 433 -14 -6 {{BF}}_Honey_OldFashioned {{BF}}_Citrus_City_Gin_Sour {{BF}}_Zuzu_Mule DN.SnS_ChocolateOrange {{BF}}_FerskenPeach_Mead_Tankard",
+
+                    //Dislike
+                    "4": "{{i18n:Aliyah.GiftReaction.Dislike{{GeneralDialogueTokens}}}}",
+                    "5": "-21 -19 -22",
+
+                    //Hate
+                    "6": "{{i18n:Aliyah.GiftReaction.Hate{{GeneralDialogueTokens}}}}",
+                    "7": "alcohol_item ButterflyPowder DN.SnS_StygiumOre -20",
+
+                    //Neutral
+                    "8": "{{i18n:Aliyah.GiftReaction.Neutral{{GeneralDialogueTokens}}}}",
+                    "9": "-4 -2 -5 873 {{BF}}_FerskenPeach_PotentMead"
+                }
+            }
+        }
     ]
     }

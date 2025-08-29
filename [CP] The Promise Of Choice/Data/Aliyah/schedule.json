@@ -1,25 +1,20 @@
 {
-    "Changes": [
-            {
-      "LogName": "Sample Schedule",
+  "Changes": [
+    {
+      "LogName": "Aliyah Basic Schedule",
       "Action": "EditData",
       "Target": "Characters/schedules/{{ModID}}_Aliyah",
-      "Entries": { 
-        "spring": 
-        "610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/730 Daine.TPOChoice_Aliyah_House 18 36 0 {{Aliyah}}_office/1300 EastScarp_Village 20 65 1 {{Aliyah}}_bench_right/1700 {{Aliyah}}_House 16 25 3 {{Aliyah}}_drink_left/2100 {{Aliyah}}_House 14 23 2 {{Aliyah}}_sweep/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep",
-
-        "Tue": 
-        "610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/730 Daine.TPOChoice_Aliyah_House 18 36 0 {{Aliyah}}_office/1300 {{Aliyah}}_House 9 26 2 {{Aliyah}}_sweep/1400 EastScarp_Village 54 41 2 {{Aliyah}}_sit_down/1930 {{Aliyah}}_Yard 25 11 3 {{Aliyah}}_sit_left/2100 {{Aliyah}}_House 14 23 2 {{Aliyah}}_sweep/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep",
-
-        "Thu": 
-        "610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/730 Daine.TPOChoice_Aliyah_House 18 36 0 {{Aliyah}}_office/1300 {{Aliyah}}_House 9 26 2 {{Aliyah}}_sweep/1400 EastScarp_Village 54 41 2 {{Aliyah}}_sit_down/1930 {{Aliyah}}_Yard 25 11 3 {{Aliyah}}_sit_left/2100 {{Aliyah}}_House 14 23 2 {{Aliyah}}_sweep/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep",
-
-        "Sat": 
-        "610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/800 {{Aliyah}}_House 17 24 2 {{Aliyah}}_sweep/930 Forest 96 23 0 {{Aliyah}}_idle_up/1730 {{Aliyah}}_Yard 9 26 2 {{Aliyah}}_sweep/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep",
-
-        "Sun":
-        "610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/730 SeedShop 12 25 3 {{Aliyah}}_study/1400 EastScarp_LoresCove 33 68 2/1650 EastScarp_Village 16 137 2/2000 EastScarp_DeepMountains 64 26 2/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep"
+      "Entries": {
+        "spring": "0 {{Aliyah}}_House 4 13 3/610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/730 {{Aliyah}}_House 18 36 0 {{Aliyah}}_office/1300 EastScarp_Village 20 65 1 {{Aliyah}}_bench_right/1700 {{Aliyah}}_House 16 25 3 {{Aliyah}}_drink_left/2100 {{Aliyah}}_House 14 23 2 {{Aliyah}}_sweep/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep",
+        "Tue": "0 {{Aliyah}}_House 4 13 3/610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/730 {{Aliyah}}_House 18 36 0 {{Aliyah}}_office/1300 {{Aliyah}}_House 9 26 2 {{Aliyah}}_sweep/1400 EastScarp_Village 54 41 2 {{Aliyah}}_sit_down/1930 {{Aliyah}}_Yard 25 11 3 {{Aliyah}}_bench_left/2100 {{Aliyah}}_House 14 23 2 {{Aliyah}}_sweep/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep",
+        "Thu": "0 {{Aliyah}}_House 4 13 3/610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/730 {{Aliyah}}_House 18 36 0 {{Aliyah}}_office/1300 {{Aliyah}}_House 9 26 2 {{Aliyah}}_sweep/1400 EastScarp_Village 54 41 2 {{Aliyah}}_sit_down/1930 {{Aliyah}}_Yard 25 11 3 {{Aliyah}}_bench_left/2100 {{Aliyah}}_House 14 23 2 {{Aliyah}}_sweep/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep",
+        "Sat": "0 {{Aliyah}}_House 4 13 3/610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/800 {{Aliyah}}_House 17 24 2 {{Aliyah}}_sweep/930 Forest 96 23 0 {{Aliyah}}_idle_up/1730 {{Aliyah}}_Yard 9 26 2 {{Aliyah}}_sweep/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep",
+        "20": "0 {{Aliyah}}_House 4 13 3/610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/800 {{Aliyah}}_House 17 24 2 {{Aliyah}}_sweep/1000 {{Aliyah}}_House 6 22 2 {{Aliyah}}_idle_down/1300 {{Aliyah}}_Yard 9 26 2 {{Aliyah}}_sweep/1800 {{Aliyah}}_House 16 25 3 {{Aliyah}}_drink_left/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep",
+        "Sun": "0 {{Aliyah}}_House 4 13 3/610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/730 SeedShop 12 25 3 {{Aliyah}}_study/1400 EastScarp_LoresCove 33 68 2/1650 EastScarp_Village 16 137 2/2000 EastScarp_DeepMountains 64 26 2/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep",
+        "GreenRain": "0 {{Aliyah}}_House 4 13 3/610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/800 {{Aliyah}}_House 17 24 2 {{Aliyah}}_sweep/930 {{Aliyah}}_Yard 9 26 2 {{Aliyah}}_sweep/1300 {{Aliyah}}_Yard 22 13 2 {{Aliyah}}_dance/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep",
+        "Rain": "0 {{Aliyah}}_House 4 13 3/610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/730 {{Aliyah}}_House 18 36 0 {{Aliyah}}_office/1300 EastScarp_DeepMountains 22 25 0 {{Aliyah}}_dance/2000 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep",
+        "Rain2": "0 {{Aliyah}}_House 4 13 3/610 {{Aliyah}}_House 4 13 3 {{Aliyah}}_nap/730 {{Aliyah}}_House 18 36 0 {{Aliyah}}_office/1300 SeedShop 12 25 3 {{Aliyah}}_study/2200 {{Aliyah}}_House 4 13 3 daine.tpochoice_aliyah_sleep"
       }
     }
-    ]
+  ]
 }

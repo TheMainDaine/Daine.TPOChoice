@@ -27,7 +27,7 @@
     {
       "LogName": "Load Map Tilesheets",
       "Action": "Load",
-      "Target": "Maps/aliinterior2, Maps/AliOutdoor, Maps/Dahl_Tiles, Maps/fall_AliHouse, Maps/spring_AliHouse, Maps/summer_AliHouse, Maps/winter_AliHouse, Maps/TPOC_MikeObjects, Maps/TPOC_RaeItems, Maps/z_Craftables, Maps/z_furniture, Maps/z_furniture_3, Maps/z_wizard_furniture, Maps/z_mine_frost, Maps/z_mine_frost_dark, Maps/z_mine_frost_dark_dangerous, Maps/z_Flooring, Maps/z_Flooring_winter, Maps/z_winter_outdoorsTileSheet, Maps/z_winter_outdoorsTileSheet2, Maps/z_winter_town",
+      "Target": "Maps/aliinterior2, Maps/AliOutdoor, Maps/Dahl_Tiles, Maps/fall_AliHouse, Maps/spring_AliHouse, Maps/summer_AliHouse, Maps/winter_AliHouse, Maps/TPOC_MikeObjects, Maps/TPOC_RaeItems, Maps/z_Craftables, Maps/z_furniture, Maps/z_furniture_3, Maps/z_wizard_furniture, Maps/z_mine_frost, Maps/z_mine_frost_dark, Maps/z_mine_frost_dark_dangerous, Maps/z_Flooring, Maps/z_Flooring_winter, Maps/z_winter_outdoorsTileSheet, Maps/z_winter_outdoorsTileSheet2, Maps/z_winter_town, Maps/z_furnitureFront",
       "FromFile": "Assets/TileSheets/{{TargetWithoutPath}}.png"
     },
     {
